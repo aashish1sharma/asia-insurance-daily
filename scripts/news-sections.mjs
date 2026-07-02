@@ -22,6 +22,17 @@ export const HOST_SECTION_PATHS = {
   "finews.asia": ["/finance/"],
 };
 
+/** Paths that indicate careers / jobs content, not news. */
+export const CAREER_PATH_RE =
+  /\/(?:careers?|jobs?|recruitment|vacancies|join-us|work-with-us|talent|campus|graduate-programme|early-careers)\b/i;
+
+export function isCareerOrJobUrl(link) {
+  return CAREER_PATH_RE.test(String(link ?? ""));
+}
+
+/** Google query exclusions appended to section searches. */
+const SECTION_QUERY_EXCLUDE = "-careers -jobs -recruitment -vacancies -hiring";
+
 /** Google News time window for section queries (days). Kept wider than the post-filter window. */
 export const SECTION_QUERY_DAYS = 2;
 
@@ -48,6 +59,7 @@ export function linkMatchesDomain(link, host) {
 
 /** True when a headline URL sits in a news / insights / releases section. */
 export function linkMatchesNewsSection(link, sections = []) {
+  if (isCareerOrJobUrl(link)) return false;
   if (/news\.google\.com/i.test(link)) return true;
   try {
     const path = new URL(link).pathname.toLowerCase();
@@ -78,15 +90,15 @@ export function buildSectionQueries(domain, queryDays = SECTION_QUERY_DAYS) {
       .slice(0, 5)
       .map((p) => (p.includes(" ") ? `"${p}"` : p))
       .join(" OR ");
-    queries.add(`site:${host} (${clause}) ${when}`);
+    queries.add(`site:${host} (${clause}) ${when} ${SECTION_QUERY_EXCLUDE}`);
   }
 
   queries.add(
-    `site:${host} (news OR insights OR "news releases" OR "media releases" OR newsroom OR mediacenter) ${when}`,
+    `site:${host} (news OR insights OR "news releases" OR "media releases" OR newsroom OR mediacenter) ${when} ${SECTION_QUERY_EXCLUDE}`,
   );
 
   if (host === "vietnam.vn" || host === "vietnamnews.vn") {
-    queries.add(`site:${host} (insurance OR techcom OR "bao hiem" OR bancassurance) ${when}`);
+    queries.add(`site:${host} (insurance OR techcom OR "bao hiem" OR bancassurance) ${when} ${SECTION_QUERY_EXCLUDE}`);
   }
 
   return [...queries].slice(0, 3);

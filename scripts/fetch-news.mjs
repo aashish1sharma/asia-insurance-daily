@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { feedsForHost } from "./feeds.mjs";
-import { buildSectionQueries, linkMatchesDomain, linkMatchesNewsSection } from "./news-sections.mjs";
+import { buildSectionQueries, isCareerOrJobUrl, linkMatchesDomain, linkMatchesNewsSection } from "./news-sections.mjs";
 import { BULLETS_PER_REGION, REGIONS, domainsForRegion } from "./regions.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -22,13 +22,54 @@ const GL = "US";
 const CEID = "US:en";
 
 const LOW_SIGNAL =
-  /\b(top \d+|best \d+|how to|stock to (?:buy|watch)|share price today|brokerage reco|buy rating|viral video|stock surges|women of influence|mortgage pre-approval|fda approval|sickle cell|robotics federation|gf value|is it too late to buy|job posting|m\/f\/d\)|coordinator \(m|internship|tipranks|ad hoc news|actuarial analyst in|partnership in kuala lumpur|sales & distribution at)\b/i;
+  /\b(top \d+|best \d+|how to|stock to (?:buy|watch)|share price today|brokerage reco|buy rating|viral video|stock surges|women of influence|mortgage pre-approval|fda approval|sickle cell|robotics federation|gf value|is it too late to buy|tipranks|ad hoc news)\b/i;
+
+const CAREER_EXCLUDE =
+  /\b(business solutions manager|solutions manager|relationship manager in|manager in (?:Singapore|Hong Kong|China|India|Australia|Malaysia|Indonesia|Vietnam|Japan|Korea)|actuarial analyst in|analyst in (?:Singapore|Hong Kong|China|India|Australia)|actuary analyst|in (?:Singapore|Hong Kong|China|India|Australia|Malaysia|Indonesia|Vietnam|Japan|Korea),|m\/f\/d\)|m\/f\/d\b|job opening|we are hiring|join our team|graduate programme|graduate program|early career|internship at|career opportunity|vacancy for|hiring for|recruitment drive|apply now|sales & distribution at|partnership in kuala lumpur)\b/i;
+
+const POLITICS_EXCLUDE =
+  /\b(senator|congressman|congresswoman|parliament|kmt\b|political party|election campaign|white house|democrat|republican|foreign minister|diplomatic talks|did not meet me)\b/i;
 
 const INSURANCE_KEYWORDS =
-  /\b(insurance|insurer|insurers|insuring|reinsurance|reinsurer|life insurance|general insurance|health insurance|underwrit|policy premium|insurtech|actuar|claims?(?:\s+(?:ratio|settlement|paid))?|bima|irdai|apra|hkma|tokio marine|aia\b|allianz|axa\b|aviva|manulife|prudential|metlife|ms&ad|dai-?ichi|sumitomo life|nippon life|fwd\b|chubb|zurich|swiss re|munich re|liberty mutual|broker(?:age)?|mga\b|captives?|techcom life|bao hiem|bảo hiểm)\b/i;
+  /\b(insurance|insurer|insurers|insuring|reinsurance|reinsurer|life insurance|general insurance|health insurance|underwrit|policy premium|insurtech|actuar|(?:insurance|policy|health|life)\s+claims?\b|\bclaims?\s+(?:ratio|settlement|paid|surge|rise|fall|data|handling|volume|costs)\b|bima|irdai|apra|hkma|tokio marine|aia\b|allianz|axa\b|aviva|manulife|prudential|metlife|ms&ad|dai-?ichi|sumitomo life|nippon life|fwd\b|chubb|zurich|swiss re|munich re|liberty mutual|broker(?:age)?|mga\b|captives?|techcom life|bao hiem|bảo hiểm)\b/i;
 
 const NON_INSURANCE_EXCLUDE =
-  /\b(military training|russia approved|sgx mainboard|esg reporting(?!.*insur)|vertex announces|casgevy|real estate expert|mortgage|home buying|robotics federation|oscar health|unum group|hello nation.*utah)\b/i;
+  /\b(military training|russia approved|sgx mainboard|esg reporting(?!.*insur)|vertex announces|casgevy|real estate(?!.*insur)|property developer|marketing claims|rejects claims|false claims|mortgage|home buying|robotics federation|oscar health|unum group|hello nation.*utah|clash in court over marketing)\b/i;
+
+const INSURER_ENTITIES = [
+  "great eastern",
+  "tokio marine",
+  "sumitomo life",
+  "nippon life",
+  "dai-ichi life",
+  "daiichi life",
+  "income insurance",
+  "china life",
+  "ping an",
+  "china taiping",
+  "techcom life",
+  "techcombank",
+  "prudential",
+  "manulife",
+  "aia",
+  "axa",
+  "allianz",
+  "aviva",
+  "chubb",
+  "zurich",
+  "fwd",
+  "msig",
+  "qbe",
+  "aig",
+  "metlife",
+  "generali",
+  "swiss re",
+  "munich re",
+  "liberty mutual",
+  "hdfc life",
+  "icici prudential",
+  "sbi life",
+];
 
 const TAG_RULES = [
   {
@@ -127,10 +168,27 @@ async function fetchQueryCached(query) {
   return queryCache.get(query);
 }
 
-function passesInsuranceFilter(item, domain = null) {
-  const haystack = `${item.title} ${item.link}`;
-  if (LOW_SIGNAL.test(haystack)) return false;
+function headlineText(title) {
+  return String(title ?? "")
+    .replace(/\s*[-–|]\s*(?:reuters|bloomberg|insurance asia|nikkei|scmp|south china morning post|business times|aap).*$/i, "")
+    .trim();
+}
+
+function passesContentFilter(item) {
+  const headline = headlineText(item.title);
+  const haystack = `${headline} ${item.title} ${item.link}`.toLowerCase();
+  if (isCareerOrJobUrl(item.link)) return false;
+  if (CAREER_EXCLUDE.test(haystack)) return false;
+  if (POLITICS_EXCLUDE.test(haystack)) return false;
   if (NON_INSURANCE_EXCLUDE.test(haystack)) return false;
+  if (LOW_SIGNAL.test(haystack)) return false;
+  return true;
+}
+
+function passesInsuranceFilter(item, domain = null) {
+  if (!passesContentFilter(item)) return false;
+  const headline = headlineText(item.title);
+  const haystack = `${headline} ${item.link}`;
   if (item.fromNewsSection && domain?.host?.includes("insurance")) return true;
   if (item.fromNewsSection && /\/insurance\//.test(item.link ?? "")) return true;
   if (INSURANCE_KEYWORDS.test(haystack)) return true;
@@ -145,11 +203,17 @@ function passesInsuranceFilter(item, domain = null) {
 }
 
 function passesRegionFilter(item, region) {
-  const haystack = `${item.title} ${item.link} ${item.source ?? ""}`;
+  const headline = headlineText(item.title);
+  const haystack = `${headline} ${item.link}`.toLowerCase();
   if (region.exclude?.test(haystack)) return false;
-  if (region.market.test(haystack)) return true;
-  // Primary-region domains can surface without explicit market token when insurance-strong
-  if (item.domainHost && item.primaryRegion === region.id) return true;
+  if (region.market.test(headline)) return true;
+  if (item.domainHost && item.primaryRegion === region.id) {
+    return passesInsuranceFilter(item, {
+      host: item.domainHost,
+      primaryRegion: item.primaryRegion,
+      label: item.source,
+    });
+  }
   return false;
 }
 
@@ -174,12 +238,19 @@ function scoreItem(item, domain, region) {
 }
 
 function cleanTitle(title) {
-  return title
-    .replace(/\s*[-–|]\s*(?:reuters|bloomberg|insurance asia|nikkei).*$/i, "")
+  return headlineText(title)
     .toLowerCase()
     .replace(/[^\w\s]/g, " ")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function extractInsurerEntity(title) {
+  const lower = cleanTitle(title);
+  for (const entity of [...INSURER_ENTITIES].sort((a, b) => b.length - a.length)) {
+    if (lower.includes(entity)) return entity;
+  }
+  return null;
 }
 
 function isSameStory(a, b) {
@@ -192,7 +263,11 @@ function isSameStory(a, b) {
   const setB = new Set(tokensB);
   const shared = tokensA.filter((t) => setB.has(t)).length;
   const union = new Set([...tokensA, ...tokensB]).size;
-  return union > 0 && shared / union >= 0.45;
+  if (union > 0 && shared / union >= 0.45) return true;
+
+  const entityA = extractInsurerEntity(a.title);
+  const entityB = extractInsurerEntity(b.title);
+  return Boolean(entityA && entityB && entityA === entityB);
 }
 
 function pickTopN(items, n = BULLETS_PER_REGION, regionId = null) {
@@ -202,6 +277,7 @@ function pickTopN(items, n = BULLETS_PER_REGION, regionId = null) {
   });
   const unique = [];
   const hostCount = new Map();
+  const entitySeen = new Set();
 
   if (regionId) {
     const primaryBest = [
@@ -218,7 +294,10 @@ function pickTopN(items, n = BULLETS_PER_REGION, regionId = null) {
     for (const { host, best } of primaryBest) {
       if (unique.length >= primarySlots) break;
       if (unique.some((kept) => isSameStory(best, kept))) continue;
+      const entity = extractInsurerEntity(best.title);
+      if (entity && entitySeen.has(entity)) continue;
       unique.push(best);
+      if (entity) entitySeen.add(entity);
       hostCount.set(host, 1);
     }
   }
@@ -226,10 +305,13 @@ function pickTopN(items, n = BULLETS_PER_REGION, regionId = null) {
   for (const item of sorted) {
     if (unique.length >= n) break;
     if (unique.some((kept) => isSameStory(item, kept))) continue;
+    const entity = extractInsurerEntity(item.title);
+    if (entity && entitySeen.has(entity)) continue;
     const host = item.domainHost ?? "";
     if (host && (hostCount.get(host) ?? 0) >= 2) continue;
     if (unique.includes(item)) continue;
     unique.push(item);
+    if (entity) entitySeen.add(entity);
     if (host) hostCount.set(host, (hostCount.get(host) ?? 0) + 1);
   }
 
