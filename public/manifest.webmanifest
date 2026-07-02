@@ -1,0 +1,18 @@
+{
+  "name": "Asia Insurance Daily",
+  "short_name": "Insurance Daily",
+  "description": "Asia-Pacific insurance news briefing by region",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f2ee",
+  "theme_color": "#1a4a6e",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

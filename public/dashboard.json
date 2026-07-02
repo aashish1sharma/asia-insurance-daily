@@ -1,0 +1,872 @@
+{
+  "generatedAt": "2026-07-02T13:34:15.168Z",
+  "title": "Asia Insurance Daily",
+  "region": "Asia-Pacific",
+  "timezone": "Asia/Singapore",
+  "windowHours": 48,
+  "bulletsPerRegion": 5,
+  "sourcesExtractedAt": "2026-07-02T13:25:20.476Z",
+  "totalSourceDomains": 48,
+  "rssEnabledDomains": 11,
+  "sourceConfig": "data/domains.json",
+  "domains": [
+    {
+      "host": "aap.com.au",
+      "label": "AAP",
+      "primaryRegion": "anz",
+      "primaryRegionLabel": "Australia & New Zealand",
+      "hasRss": false,
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "adviservoice.com.au",
+      "label": "Adviser Voice",
+      "primaryRegion": "anz",
+      "primaryRegionLabel": "Australia & New Zealand",
+      "hasRss": false,
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "allianz.com",
+      "label": "Allianz",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": false,
+      "newsSections": [
+        "/mediacenter/news/",
+        "/en/mediacenter/",
+        "/en/mediacenter/news/",
+        "/en/mediacenter/news/media-releases/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "allianz-trade.com",
+      "label": "Allianz-trade",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": false,
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "apollo.com",
+      "label": "Apollo",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": false,
+      "newsSections": [
+        "/insights-news/insights/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "asiainsurancereview.com",
+      "label": "Asia Insurance Review",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": false,
+      "newsSections": [
+        "/News/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "aviva.com",
+      "label": "Aviva",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": false,
+      "newsSections": [
+        "/newsroom/news-releases/",
+        "/newsroom/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "axa.com",
+      "label": "Axa",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": false,
+      "newsSections": [
+        "/en/news/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "bcg.com",
+      "label": "BCG",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": false,
+      "newsSections": [
+        "/publications/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "blackstone.com",
+      "label": "Blackstone",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": false,
+      "newsSections": [
+        "/news/",
+        "/insights/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "businessinsider.com",
+      "label": "Business Insider",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": false,
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "businessinsurance.com",
+      "label": "Business Insurance",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": true,
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "businesstimes.com.sg",
+      "label": "Business Times",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "hasRss": true,
+      "newsSections": [
+        "/companies-markets/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "businesswire.com",
+      "label": "Business Wire",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": false,
+      "newsSections": [
+        "/news/",
+        "/insights/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "deloitte.com",
+      "label": "Deloitte",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": false,
+      "newsSections": [
+        "/insights/",
+        "/us/en/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "eastspring.com",
+      "label": "Eastspring",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "hasRss": false,
+      "newsSections": [
+        "/sg/insights/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "finews.asia",
+      "label": "Finews Asia",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "hasRss": false,
+      "newsSections": [
+        "/finance/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "fundselectorasia.com",
+      "label": "Fund Selector Asia",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "hasRss": false,
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "gurufocus.com",
+      "label": "GuruFocus",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": false,
+      "newsSections": [
+        "/news/",
+        "/insights/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "insuranceasia.com",
+      "label": "Insurance Asia",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "hasRss": false,
+      "newsSections": [
+        "/insurance/news/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "insurancebusinessmag.com",
+      "label": "Insurance Business",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": true,
+      "newsSections": [
+        "/ca/news/",
+        "/reinsurance/news/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "insurancethoughtleadership.com",
+      "label": "Insurance Thought Leadership",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": true,
+      "newsSections": [
+        "/six-things-commentary/",
+        "/leadership/",
+        "/ai-machine-learning/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "jen.jiji.com",
+      "label": "Jiji Press",
+      "primaryRegion": "japan-korea",
+      "primaryRegionLabel": "Japan & Korea",
+      "hasRss": false,
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "limra.com",
+      "label": "Limra",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": false,
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "manulife.com",
+      "label": "Manulife",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": false,
+      "newsSections": [
+        "/about-us/news/",
+        "/ca/en/about-us/news/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "asia.nikkei.com",
+      "label": "Nikkei Asia",
+      "primaryRegion": "japan-korea",
+      "primaryRegionLabel": "Japan & Korea",
+      "hasRss": true,
+      "newsSections": [
+        "/business/insurance/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "prnewswire.com",
+      "label": "PR Newswire",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": false,
+      "newsSections": [
+        "/apac/news-releases/",
+        "/news-releases/",
+        "/insights/",
+        "/news/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "privateequitywire.co.uk",
+      "label": "Private Equity Wire",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": false,
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "news.prudential.com",
+      "label": "Prudential News",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": true,
+      "newsSections": [
+        "/latest-news/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "reinasia.com",
+      "label": "Reinasia",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": true,
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "reinsurancene.ws",
+      "label": "Reinsurance News",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": true,
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "reuters.com",
+      "label": "Reuters",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": false,
+      "newsSections": [
+        "/business/",
+        "/legal/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "riskandinsurance.com",
+      "label": "Risk & Insurance",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": true,
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "spglobal.com",
+      "label": "S&P Global",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": false,
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "sbr.com.sg",
+      "label": "SBR",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "hasRss": false,
+      "newsSections": [
+        "/insurance/news/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "scmp.com",
+      "label": "Scmp",
+      "primaryRegion": "china-hk",
+      "primaryRegionLabel": "China & Hong Kong",
+      "hasRss": true,
+      "newsSections": [
+        "/business/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "startupfortune.com",
+      "label": "Startup Fortune",
+      "primaryRegion": "japan-korea",
+      "primaryRegionLabel": "Japan & Korea",
+      "hasRss": false,
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "straitstimes.com",
+      "label": "Straits Times",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "hasRss": true,
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "thediplomat.com",
+      "label": "The Diplomat",
+      "primaryRegion": "china-hk",
+      "primaryRegionLabel": "China & Hong Kong",
+      "hasRss": false,
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "theedgemalaysia.com",
+      "label": "The Edge Malaysia",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "hasRss": false,
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "theedgesingapore.com",
+      "label": "The Edge Singapore",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "hasRss": false,
+      "newsSections": [
+        "/amp/news/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "theinsurer.com",
+      "label": "The Insurer",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": false,
+      "newsSections": [
+        "/ti/news/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "thestar.com.my",
+      "label": "The Star",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "hasRss": false,
+      "newsSections": [
+        "/business/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "vietnamnews.vn",
+      "label": "Vietnam News",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "hasRss": false,
+      "newsSections": [
+        "/economy/",
+        "/business/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "vietnam.vn",
+      "label": "Vietnam.vn",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "hasRss": false,
+      "newsSections": [
+        "/en/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "wtwco.com",
+      "label": "WTW",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": false,
+      "newsSections": [
+        "/insights/",
+        "/en-us/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "finance.yahoo.com",
+      "label": "Yahoo Finance",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": false,
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
+      "host": "sg.finance.yahoo.com",
+      "label": "Yahoo Finance SG",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "hasRss": false,
+      "newsSections": [
+        "/news/",
+        "/insights/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    }
+  ],
+  "sectors": [
+    {
+      "id": "china-hk",
+      "name": "China & Hong Kong",
+      "color": "#8b3a2a",
+      "sourceCount": 30,
+      "rssSourceCount": 8,
+      "bullets": [
+        {
+          "tag": "Press",
+          "headline": "‘She did not meet me’: US Senator Daines rejects claims of talks with KMT leader - South China Morning Post",
+          "source": "Scmp",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR2UxMEVHWTdzNFhkWVc0aU56X3Z1ZHJHRFd1SmxyUU81aENLZDZTYnM4STNxc2hwd3B3ZUFoQWx0TlFaSHNuUWh5YzdId1J1Wkg5cFF2V3FHSHlObW42MEJUU2dDR3E5N3dZb1h6TFFuYTRVMkI0OFREd2tPam5oSXJ6VU5lSGhfcVRRN3g3MGpUVVhvUHdaWDNR0gGaAUFVX3lxTE05MThiU2RPaEE4UXNqNzNQeHdvT3RaRXJGa29FMHRFX2ItbEVKb2JMSGQweWlQM3JUR01lbkZDQ19sUWRhbGdDZFY1WkIyU3ExSVZmN0FCMEFBWFBMY214blVrMF9TeVVGZTYxUTZ1dUtMbUhkS0xjbmxJRmNNZmRpajJ6UHF4NHBxUWVOUGR6TDRBbTVXa2hHMWc?oc=5",
+          "published": "2026-06-30T21:39:19.000Z",
+          "via": "sections"
+        },
+        {
+          "tag": "Regulatory",
+          "headline": "China Taiping Insurance Holdings (SEHK:966) Could Be 76% Below Fair Value On Dividend Approval - simplywall.st",
+          "source": "simplywall.st",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOUUo1WUVTVVRVcjNZMG9aRWJQS0dPMTBlOWpLengwRUxoMEJmaThYQ2hmTjhTcUxCREIza2FIRlRyWUJvYTViWWkwc3NBN18zazh1U0hjbGMtY19NLW9zanBpYl9Fa2tJbHM3bVN4eWk2dUZJVW9wejd4ajFWWHZPS2tZYnQ0S3hCWGJHeGRqT3daaTYyOS1ERk51UEQtaGlpZzBSMjh4enVSMkNEYklEY2lETEdpOTl0OXdXbHg4cElzVUtnUEhtRWluZmR1NEM1MVp5QnZtWHVyb1lBa3l3VjVrazhCRW5aTjVZ0gHwAUFVX3lxTE9Pa0lwa0dvV2MzaGJrQ0hYWUMtN2N6RHR3YXJMUVRKMWxvTnRkUm5RdmFVT0ItdU5WTDZpTDl4NENHXzFFYlRRb2lsOFdQS1J5QlppNDdZbkdEM3hNRU9EYTZIRXNJWlJ6MUcyZGg1QVFzOHRUdDBkb0ZWdXJYSm9kVVRrWWNLUmdkZHRacWNsbmNmeWFLeGE5UnR6ckhBR0NrOHFLTzlCbS1ockN0dUdhTzlTZG5ZZ18ycWp4Mm9SZGw3cGJ2Y2tXalBrSlJwQVhtWkFHRTNPdUgwdHd3UUxjUVUteTNsYUhXbFJWSnRkNA?oc=5",
+          "published": "2026-06-29T19:54:05.000Z",
+          "via": "google-news"
+        },
+        {
+          "tag": "Press",
+          "headline": "Hong Kong Life Receives the Certifications of 'Hong Kong Registration - Silver-Friendly Financial Products' Presented by Hong Kong Qualit…",
+          "source": "The Manila Times",
+          "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxQaEtxUXp5V05YQ3hsVi03UmJCZEdqSHZja3cyZ3FiWEVzLWV0ZDJ2TzI4RjR6ZEhSMW1iTEcxUGN0SUJOZjdHdnFKbzlFYVBpVlAtcHpGR1hsREdQTk1GaEw2eENoMmg2SEF2R1pzak9qZTU0TndNUlUyQ0hLMnZJQ1RQMFA1aUMwUHRMU01tTkx3N1p2UU81UW1wcGFna2NsMnh1cGN6Y044WEtDOHJwVXpCZlAyTUdUOExIdEpkZEZSd3lVa0Rqc1dJVXFzekg5ZVFiYkpGNV9LUEtBQUpiT1FvUHQ0bWY3cFR4dWFieU14a2VEQnVVMG1mNVh6UFVLeF80eldkSXVoVFkwb3ZYY3FsX3g2SFVsblBKRDNsSTR5UjVsWmhEQkk5YmhUbURDRlo3MWJyZWtJa1N3czlWUVZscjhmb0Nhdnk0bUF5blNDUUpNZE1ISlRXakpWei1xNzJnVDEtdGVuVWcxbUJYSmc0V2Y0aVBSbEFjNnVhM1XSAYYDQVVfeXFMT2VYNzJtSlgtZ1Q1MW9WWnNMMlV3RUZ2NWxyTnRlSGJFLWJXNnZ0M2NlVHZwUnNyakZEcWRTQTYzcnFwVzk0azNRX1hLRWJOLVVibExxWlFPQzRWSnprWGNOajZHamdjcjJsd2Q1b051SFAzSnFMUEwwTnRyTndlM2drLThoOU8wVVoybmR6OGdGcUFxOHFJb1ZuZlVUczFfdXdDd1VKdFdxRUFOZERYc1FqeS01eTBZTDZ2RFpNcm9XWEdtRjFLQWZhR0x2cjJ0NHB5TFpnMnNyRVVodjFhTEtUWWRMMHprcnB5YlA5b21MelFjMW4yQkVxSkFfSWVKUkJ3OFN1SkxoNUVjUUhWR0RqU29YWHRCaVg0NFk5amlTcEdGMzNBa0RuTUxyM1h0R010VFdJMENRWU9TQzBQLVV2SlZ4eG1YWlBRdGFvRkJ2QmgtdlBmRUZXLU9wQWlrYXRzM2tOaUphd1BhVlZBR0FDR1FaYmgzQTY4bGV5YkdXN2I5MUFR?oc=5",
+          "published": "2026-07-02T11:46:04.000Z",
+          "via": "google-news"
+        },
+        {
+          "tag": "Press",
+          "headline": "China: Government clears 557 drugs for insurance list - Asia Insurance Review",
+          "source": "Asia Insurance Review",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQ2dfMlB3MS1HdlpQcjgyU1BrRjJRZlRsamZ3bWI3Sm43TDNaVmN6bGhrOWdrbjgyV0dkSVdiMmk1d3ZoUDlkS0tiOEZ5dlZGenUtOEkxRS1wdmp3bkpMMUxvRjVwcGluMEVzU2YwNElITnhoZzVDcVQ0dEFONVJTR0p4YlhQREJVVUFycWhRYWxMRGRWWS1HVW8wYkZYQkl3NVA0OE9BV3VPSlZObGNuTmVBUVR1SEk3VTRkU2VjRVNwdFNvcFpjanBKc1k4QXVUdnN6bw?oc=5",
+          "published": "2026-07-01T00:05:31.000Z",
+          "via": "sections"
+        },
+        {
+          "tag": "Press",
+          "headline": "Pfizer, Innovent GLP-1 drugs clear China insurance hurdle - Reuters",
+          "source": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMThDcTZvelVkWEwwU3kwMnFpQWRPWHllYl9sLTQwYmVHZlpTMzVPNlRTWDBwRkdHSERRMUpWUWs3WlRIUjhWWmtBZEV6UFRLRktpemNkb2N4d1NGSVd1RVFxWVRGUFpMQjBhZ1dNbUd1QnlRLV9WdHR4a0NPU2kzaWtpNzJrQkIzTk03ZTgxbDloVVphT1N0YlNUMnNjUnp0d0gwOVdoVzFCSXNzSHFuLW9OQWNNTy1QZmFHQTVCd0gtMVE3UnlTdTVXWHhkMUFiUWxlbUd3?oc=5",
+          "published": "2026-06-29T19:10:16.000Z",
+          "via": "google-news"
+        }
+      ]
+    },
+    {
+      "id": "sea",
+      "name": "India & Southeast Asia",
+      "color": "#1e4d3a",
+      "sourceCount": 41,
+      "rssSourceCount": 9,
+      "bullets": [
+        {
+          "tag": "Regulatory",
+          "headline": "Great Eastern Financial Advisers nabs securities advisory licence - Insurance Asia",
+          "source": "Insurance Asia",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMjlxSV9vbG1SZmpxMVU5bHBkMmlqb1NoeDA3WEdYY1JLcWNCS1JaNE55UXRRcDM5LXRWYXVWbGJiUnRheVBQN1RpbFdsZjExNllqa0NjY3o3cEpWaGtNT0xQMHZzM0lydDVXSTVlWEZ5WEE1cFA1OFhtbi1uUy1NTjQtWERJb0JZUFhTYUhMckZDUXJMUnloNE1uSXp5bUdTV296c0VQM093dw?oc=5",
+          "published": "2026-07-01T04:10:53.000Z",
+          "via": "sections"
+        },
+        {
+          "tag": "Strategy",
+          "headline": "Techcombank increases capital for Techcom Life, propelling it to the leading group in the insurance industry. - Vietnam.vn",
+          "source": "Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNU3JLOVBVb0pwTFhIYlR5b0dhbHFwdlN0bGdCVG1NYkJzdlVEWWoweVJ2RWlMQzRwMnEyTzRLS1ZKSzZwS2RlV0YwSkdIRnlOdFNwQlpLNWw5a05TaHNpNE1kREo0ZldZOWVaN3UwUGl3Wlg0MWkweTJUaHZxd1JlTHdpclFkamstb2NIRk82SWlDZ2hRdkE?oc=5",
+          "published": "2026-07-01T05:39:51.000Z",
+          "via": "sections"
+        },
+        {
+          "tag": "Press",
+          "headline": "Great Eastern expands wealth advisory as it deepens push into HNW market - The Business Times",
+          "source": "Business Times",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdFFvNF9FaW05WE1KRElncGZPOEdlenZLd3QzV1VKa3J4T1lFX2szb1c1VHpMVmpLWllUQkNmWDFJUWJiblZYNndNNWNJNTVBMGh3UVRKMVg2Q2I3Y09OWmd0aHBPZFhKSUI5b2NjWTN1N2NKTFo1YWFjeDEzVkkwak55THJRSU9CcVFjNk1sdndiZE9ZenBRVEhzUnBmYWNHLThzcDd1d1BjcXdrYlZXbzBuZm9OU1B0UFpwdVloNTZrRGRBYVFybzFQOA?oc=5",
+          "published": "2026-07-02T08:51:00.000Z",
+          "via": "sections"
+        },
+        {
+          "tag": "Product",
+          "headline": "Proposal to expand health insurance coverage for PET/CT scans for more common cancers. - Vietnam.vn",
+          "source": "Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOHRpZFo1UXBHVWk3VHFuU1ZrMklIdXdyT2lIcTBVeWxIazBMRlNBSkI5V1ZXSFhlak1WelpGYWpvSWcxRk9LblZCeDNrbDBkMEVRNTAtX3ktZUFjaEF1amFFYjBsYW8wdkwtT3RtWGRhS1FBUUNwcDdPTVMwUEl4TUNVSEN1WFJmeFJEeVkweXRVWVh0TzVQbFRzaDFEQmtGRkVySVYxMW0?oc=5",
+          "published": "2026-07-02T07:40:50.000Z",
+          "via": "sections"
+        },
+        {
+          "tag": "Strategy",
+          "headline": "Igloo strengthens APAC presence with Eazy Digital acquisition - Insurance Asia",
+          "source": "Insurance Asia",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQXzdfeXdXSjJ5Z1F5M3FJcE5jU1BLWXBhSFBGOS1Qd2xHYmZDdkdpSDA2Ry1PelRZcldRQ2htU25FT1JBWkw0YnhYLUJiUVJNNWJORGR4Ul83cmlwVlNRUEFfU19CTFVLOV9jTWlSQnZGMU1vMk43eXBvclp6STRKanNqdlhlTE5zNHBBVW4wcGM?oc=5",
+          "published": "2026-07-01T02:00:00.000Z",
+          "via": "sections"
+        }
+      ]
+    },
+    {
+      "id": "japan-korea",
+      "name": "Japan & Korea",
+      "color": "#1a4a6e",
+      "sourceCount": 31,
+      "rssSourceCount": 8,
+      "bullets": [
+        {
+          "tag": "Press",
+          "headline": "Japan to offer trade insurance on loan for Reliance's India solar, battery effort - Nikkei Asia",
+          "source": "Nikkei Asia",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTmxOQVFNaEVRdXhuYldQVjBLcWFKNHpmSjVSOF90dFhPMm1nSVVXRVlrUVFRZVNrNEsxaXZnX1RkLUtveUE3VFpFT0RjaWFGbV9tc19CcjJuUnF6WVJCZldDbG9GUkdFMFZHV1BJcllOVWFrSm5sY0FBNWFXLXBFSkc4eldHdlNkdi1vNEpLUzBtWDVPZVBHdzd1ZzNxY2RIa2g0Yl9MSXpSQ2t4OHJHQVZqM3Z6WlhlYkE?oc=5",
+          "published": "2026-07-01T16:32:00.000Z",
+          "via": "google-news"
+        },
+        {
+          "tag": "Press",
+          "headline": "Aflac Life Insurance Japan Ordered to Report Details of Info Leak - JIJI PRESS",
+          "source": "Jiji Press",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42bnAxM3UwdVZoN0lyR0tnNWxmYmFpLVBOd0ZNbHlHRTcwZzB3UXdUNjhQVUczYlZ1N2pTdFRmNnM4amFqRFhTX1NVcjFpeWduRjNScmtZZll2UWc?oc=5",
+          "published": "2026-07-01T09:47:55.000Z",
+          "via": "google-news"
+        },
+        {
+          "tag": "Leadership",
+          "headline": "AIG Japan appoints Umeda as Vice Chairman as Shimoyama transitions to Senior Advisor - Reinsurance News",
+          "source": "Reinsurance News",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSWlsTGJSTVdEMjY1SkRyMGw5U1V6Ty1Lbmx4Nm1SR1VqcDR5dEQ2VE04Tms2b3BQazEyMXJSOGdBQnFrVWNSY1RCQUVPclo1akdNVzZKT0tYaUR3cmVJOTg1dklWOXJqNnFPeDR1NnB1OEg4X0JQXzE5NkpGSnR5bHBBSjZzdXoxQ3JYNElvRGJfZ3NOa29rVG1qNFBsb2hid0ZSUkV4clBEQzItWkx6MFpkRWc?oc=5",
+          "published": "2026-07-02T05:30:23.000Z",
+          "via": "sections"
+        },
+        {
+          "tag": "Leadership",
+          "headline": "Japan's general insurance association appoints new Chairman - Asia Insurance Review",
+          "source": "Asia Insurance Review",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPTlZpaFlyU3dFTng4dGdOelZOV3N1UUdPcHRubGNZY2hrdWlGNEo2OEFndUM3NTVBZzJoQjhwWEh1QUdSaVZxRTVBN19hQldXNkwzSmxkV1czTnprLUhLUEdnRndOdm5oaktCVmZSbDI0ekFCTW1RZEtIM3JQcEh5cmJZUDV2Q29EUVYtbWlPTW9ZTlM2bkZCWEtod1c1dWQxUTE2bFdRaTlqb0ZuYVp1NEN4U3J3R2kwd1kxTUxhd2JzMUQxZDl6eUhKT2h6NC1ONGNtczE4QW83RU0?oc=5",
+          "published": "2026-07-02T00:00:50.000Z",
+          "via": "sections"
+        },
+        {
+          "tag": "Strategy",
+          "headline": "Japan: Multiple births from fertility treatments hit record high after insurance expansion - Asia Insurance Review",
+          "source": "Asia Insurance Review",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNQXRmYm5NbnhLemZlaWVid1k1b0lMSk5tcC1pVS00UGFudVB5SUdHT2NtSVBwTjBrMU1JQzMwYjUxZWJHWkVOeDVrOURsOVo4TExJSnhmWVFQNWJHTG5wQl95dlVmWVo5bDlkT0lHaHd2bUt6YU5VWkJUSVpmVFhZeXBqNFB5V0U0RVJMNDdRbWxFczNmZ1pmcmZ0dlUxak5ETzcxTkpjQWhfazVJSXY5UlkxczRJRzNmYXNuUGRvTG5GekN2NHNHMVRaTlJaOC1ocElWbEZFaUtiRERwQUtzbkh0bjFyZGNHUFdkdDlMZWR0Mm1xZUVr?oc=5",
+          "published": "2026-06-30T16:02:16.000Z",
+          "via": "sections"
+        }
+      ]
+    },
+    {
+      "id": "anz",
+      "name": "Australia & New Zealand",
+      "color": "#5c3d6e",
+      "sourceCount": 30,
+      "rssSourceCount": 7,
+      "bullets": [
+        {
+          "tag": "Press",
+          "headline": "Zurich Australia boosts adviser efficiency with portal update - AdviserVoice",
+          "source": "Adviser Voice",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbzZpazFSeVdPM2xCQ3F3NmhpeTAzRkthUDZ5SFhpUGZiMW91ck1raWJJVkI1ajVZUEx1OVppeHk0VS1leXhpWDJPOWlhTTdOVERzQzE4UHZmTW5jckctUVdrcWtuQnhtQzRjRXNGcXFNXzQ3MVkxaDNpa1BMTk5DMWF0NHRLMzZnSTBqbXJLLWpKOGZrNEo5VmVoaGVIYnVUVGVjaw?oc=5",
+          "published": "2026-06-30T21:29:33.000Z",
+          "via": "sections"
+        },
+        {
+          "tag": "Press",
+          "headline": "Real estate giants clash in court over marketing claims - aapnews.aap.com.au",
+          "source": "AAP",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZU92MlItbkMwbUw0ai1TT3lzSkcxZkMxZVhLSDk2VEhxV05PZm1nbjdVUHdsQXNmMXNsblhVWlVMN3NCbmVuaUFiZ3VwclFZQ2Rld2x0d0l4M0RSNUh6cjBVa0hBQVBCS0p1MkYyMFpnTGdhN2EzbHJ5OFdMTmFvbEZKa3R3Z2pXMThxSURId0M?oc=5",
+          "published": "2026-07-02T06:24:14.000Z",
+          "via": "sections"
+        },
+        {
+          "tag": "Regulatory",
+          "headline": "QBE gains full ownership of Indian JV after IRDAI approval",
+          "source": "Reinasia",
+          "url": "https://reinasia.com/qbe-gains-full-ownership-of-indian-jv-after-irdai-approval/",
+          "published": "2026-07-02T07:17:30.000Z",
+          "via": "rss"
+        },
+        {
+          "tag": "Regulatory",
+          "headline": "APRA carves out cyber, management liability as standalone data - Insurance Business",
+          "source": "Insurance Business",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWTNQc2t6MEtBdHhhNUwwTXZVSGhhcmJvU3JkeUhZWlRSOFVZX3AxcmZfSEZ5T0JmZGF5WlkwWWNaLWt3Vk1MQkpVQnFtMnNJS1VPeDdyWHpnNGYzWWRtNFhFS2NONEtPTm9BMVpTUDdGMy1MZExJN0cwY0tzZzlIZDByQ0pkOHZmUjcxN01GZnpWRmE2LVNfa1pMYWp5WXRqMWwxRGhKS09HZ2hCcjI4Z0FFN1F4THR2TmhSb2EzclpBb00?oc=5",
+          "published": "2026-07-01T09:43:57.000Z",
+          "via": "sections"
+        },
+        {
+          "tag": "Regulatory",
+          "headline": "Australia: APRA publishes findings of inaugural System Risk Stress Test - Asia Insurance Review",
+          "source": "Asia Insurance Review",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZ0hXNjdPVWRtUl9YVkU0ZkJHUTFSTllZUG00UWJWU2ZhOHZLSG9udXZjMXBna0NJWFdkSG5iYmp6V3JvTmdSTGZESXVGOXVYTTUxZEs4WlZRTFdXSEc2dmFMQzY0WXk5S1pWOUw0OVNGTFY5NG5jaU92Sk1fYmU2Rno4cW91V1RFZUZKYUdRak82Nl9DR3NKVDFZTTRESGlMTGpYZnpWOXBkU0FVcVlCaGVWOFJlVEJuY0VYYXI3dEExSVo3bjA2dXJwUTdMS1gySy10a0IxOGlNbHZGMFdyNHpoWkJZemNCcjRaNw?oc=5",
+          "published": "2026-07-01T00:05:31.000Z",
+          "via": "sections"
+        }
+      ]
+    }
+  ]
+}

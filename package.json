@@ -1,0 +1,20 @@
+{
+  "name": "daily-news-aggregator",
+  "version": "1.0.0",
+  "description": "Asia insurance news dashboard — curated source domains, styled like FIG Bytes.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "extract": "node scripts/load-sources.mjs",
+    "refresh": "node scripts/load-sources.mjs && node scripts/fetch-news.mjs",
+    "serve": "node scripts/server.mjs",
+    "serve:local": "HOST=127.0.0.1 node scripts/server.mjs",
+    "publish": "node scripts/publish-static.mjs",
+    "start": "npm run refresh && npm run serve",
+    "schedule:install": "bash scripts/install-schedule.sh",
+    "schedule:uninstall": "bash scripts/uninstall-schedule.sh"
+  }
+}

@@ -1,0 +1,3437 @@
+{
+  "generatedAt": "2026-07-02T13:25:20.476Z",
+  "sourceConfig": "data/domains.json",
+  "uniqueDomains": 48,
+  "rssEnabledDomains": 11,
+  "domains": [
+    {
+      "host": "aap.com.au",
+      "origin": "https://www.aap.com.au",
+      "label": "AAP",
+      "primaryRegion": "anz",
+      "primaryRegionLabel": "Australia & New Zealand",
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "adviservoice.com.au",
+      "origin": "https://www.adviservoice.com.au",
+      "label": "Adviser Voice",
+      "primaryRegion": "anz",
+      "primaryRegionLabel": "Australia & New Zealand",
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "allianz.com",
+      "origin": "https://www.allianz.com",
+      "label": "Allianz",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/mediacenter/news/",
+        "/en/mediacenter/",
+        "/en/mediacenter/news/",
+        "/en/mediacenter/news/media-releases/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "allianz-trade.com",
+      "origin": "https://www.allianz-trade.com",
+      "label": "Allianz-trade",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "apollo.com",
+      "origin": "https://www.apollo.com",
+      "label": "Apollo",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/insights-news/insights/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "asiainsurancereview.com",
+      "origin": "https://www.asiainsurancereview.com",
+      "label": "Asia Insurance Review",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/News/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "aviva.com",
+      "origin": "https://www.aviva.com",
+      "label": "Aviva",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/newsroom/news-releases/",
+        "/newsroom/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "axa.com",
+      "origin": "https://www.axa.com",
+      "label": "Axa",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/en/news/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "bcg.com",
+      "origin": "https://www.bcg.com",
+      "label": "BCG",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/publications/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "blackstone.com",
+      "origin": "https://www.blackstone.com",
+      "label": "Blackstone",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/news/",
+        "/insights/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "businessinsider.com",
+      "origin": "https://www.businessinsider.com",
+      "label": "Business Insider",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "businessinsurance.com",
+      "origin": "https://www.businessinsurance.com",
+      "label": "Business Insurance",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": true,
+      "rssFeeds": [
+        {
+          "url": "https://www.businessinsurance.com/rss",
+          "label": "Business Insurance"
+        }
+      ]
+    },
+    {
+      "host": "businesstimes.com.sg",
+      "origin": "https://www.businesstimes.com.sg",
+      "label": "Business Times",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "newsSections": [
+        "/companies-markets/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": true,
+      "rssFeeds": [
+        {
+          "url": "https://www.businesstimes.com.sg/rss/feed/business",
+          "label": "Business Times"
+        }
+      ]
+    },
+    {
+      "host": "businesswire.com",
+      "origin": "https://www.businesswire.com",
+      "label": "Business Wire",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/news/",
+        "/insights/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "deloitte.com",
+      "origin": "https://www.deloitte.com",
+      "label": "Deloitte",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/insights/",
+        "/us/en/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "eastspring.com",
+      "origin": "https://www.eastspring.com",
+      "label": "Eastspring",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "newsSections": [
+        "/sg/insights/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "finews.asia",
+      "origin": "https://www.finews.asia",
+      "label": "Finews Asia",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "newsSections": [
+        "/finance/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "fundselectorasia.com",
+      "origin": "https://fundselectorasia.com",
+      "label": "Fund Selector Asia",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "gurufocus.com",
+      "origin": "https://www.gurufocus.com",
+      "label": "GuruFocus",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/news/",
+        "/insights/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "insuranceasia.com",
+      "origin": "https://insuranceasia.com",
+      "label": "Insurance Asia",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "newsSections": [
+        "/insurance/news/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "insurancebusinessmag.com",
+      "origin": "https://www.insurancebusinessmag.com",
+      "label": "Insurance Business",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/ca/news/",
+        "/reinsurance/news/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": true,
+      "rssFeeds": [
+        {
+          "url": "https://www.insurancebusinessmag.com/us/rss",
+          "label": "Insurance Business"
+        }
+      ]
+    },
+    {
+      "host": "insurancethoughtleadership.com",
+      "origin": "https://www.insurancethoughtleadership.com",
+      "label": "Insurance Thought Leadership",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/six-things-commentary/",
+        "/leadership/",
+        "/ai-machine-learning/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": true,
+      "rssFeeds": [
+        {
+          "url": "https://www.insurancethoughtleadership.com/feed/",
+          "label": "Insurance Thought Leadership"
+        }
+      ]
+    },
+    {
+      "host": "jen.jiji.com",
+      "origin": "https://jen.jiji.com",
+      "label": "Jiji Press",
+      "primaryRegion": "japan-korea",
+      "primaryRegionLabel": "Japan & Korea",
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "limra.com",
+      "origin": "https://www.limra.com",
+      "label": "Limra",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "manulife.com",
+      "origin": "https://www.manulife.com",
+      "label": "Manulife",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/about-us/news/",
+        "/ca/en/about-us/news/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "asia.nikkei.com",
+      "origin": "https://asia.nikkei.com",
+      "label": "Nikkei Asia",
+      "primaryRegion": "japan-korea",
+      "primaryRegionLabel": "Japan & Korea",
+      "newsSections": [
+        "/business/insurance/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": true,
+      "rssFeeds": [
+        {
+          "url": "https://asia.nikkei.com/rss/feed/nar",
+          "label": "Nikkei Asia"
+        }
+      ]
+    },
+    {
+      "host": "prnewswire.com",
+      "origin": "https://www.prnewswire.com",
+      "label": "PR Newswire",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/apac/news-releases/",
+        "/news-releases/",
+        "/insights/",
+        "/news/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "privateequitywire.co.uk",
+      "origin": "https://www.privateequitywire.co.uk",
+      "label": "Private Equity Wire",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "news.prudential.com",
+      "origin": "https://news.prudential.com",
+      "label": "Prudential News",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/latest-news/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": true,
+      "rssFeeds": [
+        {
+          "url": "https://news.prudential.com/rss",
+          "label": "Prudential News"
+        }
+      ]
+    },
+    {
+      "host": "reinasia.com",
+      "origin": "https://reinasia.com",
+      "label": "Reinasia",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": true,
+      "rssFeeds": [
+        {
+          "url": "https://reinasia.com/feed/",
+          "label": "Reinasia"
+        }
+      ]
+    },
+    {
+      "host": "reinsurancene.ws",
+      "origin": "https://www.reinsurancene.ws",
+      "label": "Reinsurance News",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": true,
+      "rssFeeds": [
+        {
+          "url": "https://www.reinsurancene.ws/feed/",
+          "label": "Reinsurance News"
+        }
+      ]
+    },
+    {
+      "host": "reuters.com",
+      "origin": "https://www.reuters.com",
+      "label": "Reuters",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/business/",
+        "/legal/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "riskandinsurance.com",
+      "origin": "https://riskandinsurance.com",
+      "label": "Risk & Insurance",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": true,
+      "rssFeeds": [
+        {
+          "url": "https://riskandinsurance.com/feed/",
+          "label": "Risk & Insurance"
+        }
+      ]
+    },
+    {
+      "host": "spglobal.com",
+      "origin": "https://www.spglobal.com",
+      "label": "S&P Global",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "sbr.com.sg",
+      "origin": "https://sbr.com.sg",
+      "label": "SBR",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "newsSections": [
+        "/insurance/news/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "scmp.com",
+      "origin": "https://www.scmp.com",
+      "label": "Scmp",
+      "primaryRegion": "china-hk",
+      "primaryRegionLabel": "China & Hong Kong",
+      "newsSections": [
+        "/business/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": true,
+      "rssFeeds": [
+        {
+          "url": "https://www.scmp.com/rss/91/feed",
+          "label": "SCMP"
+        }
+      ]
+    },
+    {
+      "host": "startupfortune.com",
+      "origin": "https://startupfortune.com",
+      "label": "Startup Fortune",
+      "primaryRegion": "japan-korea",
+      "primaryRegionLabel": "Japan & Korea",
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "straitstimes.com",
+      "origin": "https://www.straitstimes.com",
+      "label": "Straits Times",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": true,
+      "rssFeeds": [
+        {
+          "url": "https://www.straitstimes.com/news/asia/rss.xml",
+          "label": "Straits Times"
+        }
+      ]
+    },
+    {
+      "host": "thediplomat.com",
+      "origin": "https://thediplomat.com",
+      "label": "The Diplomat",
+      "primaryRegion": "china-hk",
+      "primaryRegionLabel": "China & Hong Kong",
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "theedgemalaysia.com",
+      "origin": "https://theedgemalaysia.com",
+      "label": "The Edge Malaysia",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "theedgesingapore.com",
+      "origin": "https://www.theedgesingapore.com",
+      "label": "The Edge Singapore",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "newsSections": [
+        "/amp/news/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "theinsurer.com",
+      "origin": "https://www.theinsurer.com",
+      "label": "The Insurer",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/ti/news/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "thestar.com.my",
+      "origin": "https://www.thestar.com.my",
+      "label": "The Star",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "newsSections": [
+        "/business/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "vietnamnews.vn",
+      "origin": "https://vietnamnews.vn",
+      "label": "Vietnam News",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "newsSections": [
+        "/economy/",
+        "/business/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "vietnam.vn",
+      "origin": "https://www.vietnam.vn",
+      "label": "Vietnam.vn",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "newsSections": [
+        "/en/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "wtwco.com",
+      "origin": "https://www.wtwco.com",
+      "label": "WTW",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/insights/",
+        "/en-us/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "finance.yahoo.com",
+      "origin": "https://finance.yahoo.com",
+      "label": "Yahoo Finance",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
+      "host": "sg.finance.yahoo.com",
+      "origin": "https://sg.finance.yahoo.com",
+      "label": "Yahoo Finance SG",
+      "primaryRegion": "sea",
+      "primaryRegionLabel": "India & Southeast Asia",
+      "newsSections": [
+        "/news/",
+        "/insights/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    }
+  ],
+  "regions": [
+    {
+      "id": "china-hk",
+      "name": "China & Hong Kong",
+      "color": "#8b3a2a",
+      "domains": [
+        {
+          "host": "allianz.com",
+          "origin": "https://www.allianz.com",
+          "label": "Allianz",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/mediacenter/news/",
+            "/en/mediacenter/",
+            "/en/mediacenter/news/",
+            "/en/mediacenter/news/media-releases/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "allianz-trade.com",
+          "origin": "https://www.allianz-trade.com",
+          "label": "Allianz-trade",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "apollo.com",
+          "origin": "https://www.apollo.com",
+          "label": "Apollo",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights-news/insights/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "asiainsurancereview.com",
+          "origin": "https://www.asiainsurancereview.com",
+          "label": "Asia Insurance Review",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/News/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "aviva.com",
+          "origin": "https://www.aviva.com",
+          "label": "Aviva",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/newsroom/news-releases/",
+            "/newsroom/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "axa.com",
+          "origin": "https://www.axa.com",
+          "label": "Axa",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/en/news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "bcg.com",
+          "origin": "https://www.bcg.com",
+          "label": "BCG",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/publications/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "blackstone.com",
+          "origin": "https://www.blackstone.com",
+          "label": "Blackstone",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/news/",
+            "/insights/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "businessinsider.com",
+          "origin": "https://www.businessinsider.com",
+          "label": "Business Insider",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "businessinsurance.com",
+          "origin": "https://www.businessinsurance.com",
+          "label": "Business Insurance",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://www.businessinsurance.com/rss",
+              "label": "Business Insurance"
+            }
+          ]
+        },
+        {
+          "host": "businesswire.com",
+          "origin": "https://www.businesswire.com",
+          "label": "Business Wire",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/news/",
+            "/insights/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "deloitte.com",
+          "origin": "https://www.deloitte.com",
+          "label": "Deloitte",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/us/en/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "gurufocus.com",
+          "origin": "https://www.gurufocus.com",
+          "label": "GuruFocus",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/news/",
+            "/insights/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "insurancebusinessmag.com",
+          "origin": "https://www.insurancebusinessmag.com",
+          "label": "Insurance Business",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/ca/news/",
+            "/reinsurance/news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://www.insurancebusinessmag.com/us/rss",
+              "label": "Insurance Business"
+            }
+          ]
+        },
+        {
+          "host": "insurancethoughtleadership.com",
+          "origin": "https://www.insurancethoughtleadership.com",
+          "label": "Insurance Thought Leadership",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/six-things-commentary/",
+            "/leadership/",
+            "/ai-machine-learning/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://www.insurancethoughtleadership.com/feed/",
+              "label": "Insurance Thought Leadership"
+            }
+          ]
+        },
+        {
+          "host": "limra.com",
+          "origin": "https://www.limra.com",
+          "label": "Limra",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "manulife.com",
+          "origin": "https://www.manulife.com",
+          "label": "Manulife",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/about-us/news/",
+            "/ca/en/about-us/news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "prnewswire.com",
+          "origin": "https://www.prnewswire.com",
+          "label": "PR Newswire",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/apac/news-releases/",
+            "/news-releases/",
+            "/insights/",
+            "/news/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "privateequitywire.co.uk",
+          "origin": "https://www.privateequitywire.co.uk",
+          "label": "Private Equity Wire",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "news.prudential.com",
+          "origin": "https://news.prudential.com",
+          "label": "Prudential News",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/latest-news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://news.prudential.com/rss",
+              "label": "Prudential News"
+            }
+          ]
+        },
+        {
+          "host": "reinasia.com",
+          "origin": "https://reinasia.com",
+          "label": "Reinasia",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://reinasia.com/feed/",
+              "label": "Reinasia"
+            }
+          ]
+        },
+        {
+          "host": "reinsurancene.ws",
+          "origin": "https://www.reinsurancene.ws",
+          "label": "Reinsurance News",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://www.reinsurancene.ws/feed/",
+              "label": "Reinsurance News"
+            }
+          ]
+        },
+        {
+          "host": "reuters.com",
+          "origin": "https://www.reuters.com",
+          "label": "Reuters",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/business/",
+            "/legal/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "riskandinsurance.com",
+          "origin": "https://riskandinsurance.com",
+          "label": "Risk & Insurance",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://riskandinsurance.com/feed/",
+              "label": "Risk & Insurance"
+            }
+          ]
+        },
+        {
+          "host": "spglobal.com",
+          "origin": "https://www.spglobal.com",
+          "label": "S&P Global",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "scmp.com",
+          "origin": "https://www.scmp.com",
+          "label": "Scmp",
+          "primaryRegion": "china-hk",
+          "primaryRegionLabel": "China & Hong Kong",
+          "newsSections": [
+            "/business/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://www.scmp.com/rss/91/feed",
+              "label": "SCMP"
+            }
+          ]
+        },
+        {
+          "host": "thediplomat.com",
+          "origin": "https://thediplomat.com",
+          "label": "The Diplomat",
+          "primaryRegion": "china-hk",
+          "primaryRegionLabel": "China & Hong Kong",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "theinsurer.com",
+          "origin": "https://www.theinsurer.com",
+          "label": "The Insurer",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/ti/news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "wtwco.com",
+          "origin": "https://www.wtwco.com",
+          "label": "WTW",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/en-us/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "finance.yahoo.com",
+          "origin": "https://finance.yahoo.com",
+          "label": "Yahoo Finance",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        }
+      ],
+      "primaryDomains": [
+        {
+          "host": "scmp.com",
+          "origin": "https://www.scmp.com",
+          "label": "Scmp",
+          "primaryRegion": "china-hk",
+          "primaryRegionLabel": "China & Hong Kong",
+          "newsSections": [
+            "/business/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://www.scmp.com/rss/91/feed",
+              "label": "SCMP"
+            }
+          ]
+        },
+        {
+          "host": "thediplomat.com",
+          "origin": "https://thediplomat.com",
+          "label": "The Diplomat",
+          "primaryRegion": "china-hk",
+          "primaryRegionLabel": "China & Hong Kong",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        }
+      ]
+    },
+    {
+      "id": "sea",
+      "name": "India & Southeast Asia",
+      "color": "#1e4d3a",
+      "domains": [
+        {
+          "host": "allianz.com",
+          "origin": "https://www.allianz.com",
+          "label": "Allianz",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/mediacenter/news/",
+            "/en/mediacenter/",
+            "/en/mediacenter/news/",
+            "/en/mediacenter/news/media-releases/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "allianz-trade.com",
+          "origin": "https://www.allianz-trade.com",
+          "label": "Allianz-trade",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "apollo.com",
+          "origin": "https://www.apollo.com",
+          "label": "Apollo",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights-news/insights/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "asiainsurancereview.com",
+          "origin": "https://www.asiainsurancereview.com",
+          "label": "Asia Insurance Review",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/News/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "aviva.com",
+          "origin": "https://www.aviva.com",
+          "label": "Aviva",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/newsroom/news-releases/",
+            "/newsroom/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "axa.com",
+          "origin": "https://www.axa.com",
+          "label": "Axa",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/en/news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "bcg.com",
+          "origin": "https://www.bcg.com",
+          "label": "BCG",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/publications/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "blackstone.com",
+          "origin": "https://www.blackstone.com",
+          "label": "Blackstone",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/news/",
+            "/insights/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "businessinsider.com",
+          "origin": "https://www.businessinsider.com",
+          "label": "Business Insider",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "businessinsurance.com",
+          "origin": "https://www.businessinsurance.com",
+          "label": "Business Insurance",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://www.businessinsurance.com/rss",
+              "label": "Business Insurance"
+            }
+          ]
+        },
+        {
+          "host": "businesstimes.com.sg",
+          "origin": "https://www.businesstimes.com.sg",
+          "label": "Business Times",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/companies-markets/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://www.businesstimes.com.sg/rss/feed/business",
+              "label": "Business Times"
+            }
+          ]
+        },
+        {
+          "host": "businesswire.com",
+          "origin": "https://www.businesswire.com",
+          "label": "Business Wire",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/news/",
+            "/insights/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "deloitte.com",
+          "origin": "https://www.deloitte.com",
+          "label": "Deloitte",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/us/en/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "eastspring.com",
+          "origin": "https://www.eastspring.com",
+          "label": "Eastspring",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/sg/insights/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "finews.asia",
+          "origin": "https://www.finews.asia",
+          "label": "Finews Asia",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/finance/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "fundselectorasia.com",
+          "origin": "https://fundselectorasia.com",
+          "label": "Fund Selector Asia",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "gurufocus.com",
+          "origin": "https://www.gurufocus.com",
+          "label": "GuruFocus",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/news/",
+            "/insights/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "insuranceasia.com",
+          "origin": "https://insuranceasia.com",
+          "label": "Insurance Asia",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/insurance/news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "insurancebusinessmag.com",
+          "origin": "https://www.insurancebusinessmag.com",
+          "label": "Insurance Business",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/ca/news/",
+            "/reinsurance/news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://www.insurancebusinessmag.com/us/rss",
+              "label": "Insurance Business"
+            }
+          ]
+        },
+        {
+          "host": "insurancethoughtleadership.com",
+          "origin": "https://www.insurancethoughtleadership.com",
+          "label": "Insurance Thought Leadership",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/six-things-commentary/",
+            "/leadership/",
+            "/ai-machine-learning/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://www.insurancethoughtleadership.com/feed/",
+              "label": "Insurance Thought Leadership"
+            }
+          ]
+        },
+        {
+          "host": "limra.com",
+          "origin": "https://www.limra.com",
+          "label": "Limra",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "manulife.com",
+          "origin": "https://www.manulife.com",
+          "label": "Manulife",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/about-us/news/",
+            "/ca/en/about-us/news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "prnewswire.com",
+          "origin": "https://www.prnewswire.com",
+          "label": "PR Newswire",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/apac/news-releases/",
+            "/news-releases/",
+            "/insights/",
+            "/news/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "privateequitywire.co.uk",
+          "origin": "https://www.privateequitywire.co.uk",
+          "label": "Private Equity Wire",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "news.prudential.com",
+          "origin": "https://news.prudential.com",
+          "label": "Prudential News",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/latest-news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://news.prudential.com/rss",
+              "label": "Prudential News"
+            }
+          ]
+        },
+        {
+          "host": "reinasia.com",
+          "origin": "https://reinasia.com",
+          "label": "Reinasia",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://reinasia.com/feed/",
+              "label": "Reinasia"
+            }
+          ]
+        },
+        {
+          "host": "reinsurancene.ws",
+          "origin": "https://www.reinsurancene.ws",
+          "label": "Reinsurance News",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://www.reinsurancene.ws/feed/",
+              "label": "Reinsurance News"
+            }
+          ]
+        },
+        {
+          "host": "reuters.com",
+          "origin": "https://www.reuters.com",
+          "label": "Reuters",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/business/",
+            "/legal/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "riskandinsurance.com",
+          "origin": "https://riskandinsurance.com",
+          "label": "Risk & Insurance",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://riskandinsurance.com/feed/",
+              "label": "Risk & Insurance"
+            }
+          ]
+        },
+        {
+          "host": "spglobal.com",
+          "origin": "https://www.spglobal.com",
+          "label": "S&P Global",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "sbr.com.sg",
+          "origin": "https://sbr.com.sg",
+          "label": "SBR",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/insurance/news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "straitstimes.com",
+          "origin": "https://www.straitstimes.com",
+          "label": "Straits Times",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://www.straitstimes.com/news/asia/rss.xml",
+              "label": "Straits Times"
+            }
+          ]
+        },
+        {
+          "host": "theedgemalaysia.com",
+          "origin": "https://theedgemalaysia.com",
+          "label": "The Edge Malaysia",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "theedgesingapore.com",
+          "origin": "https://www.theedgesingapore.com",
+          "label": "The Edge Singapore",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/amp/news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "theinsurer.com",
+          "origin": "https://www.theinsurer.com",
+          "label": "The Insurer",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/ti/news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "thestar.com.my",
+          "origin": "https://www.thestar.com.my",
+          "label": "The Star",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/business/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "vietnamnews.vn",
+          "origin": "https://vietnamnews.vn",
+          "label": "Vietnam News",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/economy/",
+            "/business/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "vietnam.vn",
+          "origin": "https://www.vietnam.vn",
+          "label": "Vietnam.vn",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/en/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "wtwco.com",
+          "origin": "https://www.wtwco.com",
+          "label": "WTW",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/en-us/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "finance.yahoo.com",
+          "origin": "https://finance.yahoo.com",
+          "label": "Yahoo Finance",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "sg.finance.yahoo.com",
+          "origin": "https://sg.finance.yahoo.com",
+          "label": "Yahoo Finance SG",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/news/",
+            "/insights/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        }
+      ],
+      "primaryDomains": [
+        {
+          "host": "businesstimes.com.sg",
+          "origin": "https://www.businesstimes.com.sg",
+          "label": "Business Times",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/companies-markets/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://www.businesstimes.com.sg/rss/feed/business",
+              "label": "Business Times"
+            }
+          ]
+        },
+        {
+          "host": "eastspring.com",
+          "origin": "https://www.eastspring.com",
+          "label": "Eastspring",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/sg/insights/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "finews.asia",
+          "origin": "https://www.finews.asia",
+          "label": "Finews Asia",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/finance/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "fundselectorasia.com",
+          "origin": "https://fundselectorasia.com",
+          "label": "Fund Selector Asia",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "insuranceasia.com",
+          "origin": "https://insuranceasia.com",
+          "label": "Insurance Asia",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/insurance/news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "sbr.com.sg",
+          "origin": "https://sbr.com.sg",
+          "label": "SBR",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/insurance/news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "straitstimes.com",
+          "origin": "https://www.straitstimes.com",
+          "label": "Straits Times",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://www.straitstimes.com/news/asia/rss.xml",
+              "label": "Straits Times"
+            }
+          ]
+        },
+        {
+          "host": "theedgemalaysia.com",
+          "origin": "https://theedgemalaysia.com",
+          "label": "The Edge Malaysia",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "theedgesingapore.com",
+          "origin": "https://www.theedgesingapore.com",
+          "label": "The Edge Singapore",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/amp/news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "thestar.com.my",
+          "origin": "https://www.thestar.com.my",
+          "label": "The Star",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/business/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "vietnamnews.vn",
+          "origin": "https://vietnamnews.vn",
+          "label": "Vietnam News",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/economy/",
+            "/business/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "vietnam.vn",
+          "origin": "https://www.vietnam.vn",
+          "label": "Vietnam.vn",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/en/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "sg.finance.yahoo.com",
+          "origin": "https://sg.finance.yahoo.com",
+          "label": "Yahoo Finance SG",
+          "primaryRegion": "sea",
+          "primaryRegionLabel": "India & Southeast Asia",
+          "newsSections": [
+            "/news/",
+            "/insights/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        }
+      ]
+    },
+    {
+      "id": "japan-korea",
+      "name": "Japan & Korea",
+      "color": "#1a4a6e",
+      "domains": [
+        {
+          "host": "allianz.com",
+          "origin": "https://www.allianz.com",
+          "label": "Allianz",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/mediacenter/news/",
+            "/en/mediacenter/",
+            "/en/mediacenter/news/",
+            "/en/mediacenter/news/media-releases/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "allianz-trade.com",
+          "origin": "https://www.allianz-trade.com",
+          "label": "Allianz-trade",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "apollo.com",
+          "origin": "https://www.apollo.com",
+          "label": "Apollo",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights-news/insights/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "asiainsurancereview.com",
+          "origin": "https://www.asiainsurancereview.com",
+          "label": "Asia Insurance Review",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/News/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "aviva.com",
+          "origin": "https://www.aviva.com",
+          "label": "Aviva",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/newsroom/news-releases/",
+            "/newsroom/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "axa.com",
+          "origin": "https://www.axa.com",
+          "label": "Axa",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/en/news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "bcg.com",
+          "origin": "https://www.bcg.com",
+          "label": "BCG",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/publications/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "blackstone.com",
+          "origin": "https://www.blackstone.com",
+          "label": "Blackstone",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/news/",
+            "/insights/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "businessinsider.com",
+          "origin": "https://www.businessinsider.com",
+          "label": "Business Insider",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "businessinsurance.com",
+          "origin": "https://www.businessinsurance.com",
+          "label": "Business Insurance",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://www.businessinsurance.com/rss",
+              "label": "Business Insurance"
+            }
+          ]
+        },
+        {
+          "host": "businesswire.com",
+          "origin": "https://www.businesswire.com",
+          "label": "Business Wire",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/news/",
+            "/insights/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "deloitte.com",
+          "origin": "https://www.deloitte.com",
+          "label": "Deloitte",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/us/en/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "gurufocus.com",
+          "origin": "https://www.gurufocus.com",
+          "label": "GuruFocus",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/news/",
+            "/insights/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "insurancebusinessmag.com",
+          "origin": "https://www.insurancebusinessmag.com",
+          "label": "Insurance Business",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/ca/news/",
+            "/reinsurance/news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://www.insurancebusinessmag.com/us/rss",
+              "label": "Insurance Business"
+            }
+          ]
+        },
+        {
+          "host": "insurancethoughtleadership.com",
+          "origin": "https://www.insurancethoughtleadership.com",
+          "label": "Insurance Thought Leadership",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/six-things-commentary/",
+            "/leadership/",
+            "/ai-machine-learning/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://www.insurancethoughtleadership.com/feed/",
+              "label": "Insurance Thought Leadership"
+            }
+          ]
+        },
+        {
+          "host": "jen.jiji.com",
+          "origin": "https://jen.jiji.com",
+          "label": "Jiji Press",
+          "primaryRegion": "japan-korea",
+          "primaryRegionLabel": "Japan & Korea",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "limra.com",
+          "origin": "https://www.limra.com",
+          "label": "Limra",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "manulife.com",
+          "origin": "https://www.manulife.com",
+          "label": "Manulife",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/about-us/news/",
+            "/ca/en/about-us/news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "asia.nikkei.com",
+          "origin": "https://asia.nikkei.com",
+          "label": "Nikkei Asia",
+          "primaryRegion": "japan-korea",
+          "primaryRegionLabel": "Japan & Korea",
+          "newsSections": [
+            "/business/insurance/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://asia.nikkei.com/rss/feed/nar",
+              "label": "Nikkei Asia"
+            }
+          ]
+        },
+        {
+          "host": "prnewswire.com",
+          "origin": "https://www.prnewswire.com",
+          "label": "PR Newswire",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/apac/news-releases/",
+            "/news-releases/",
+            "/insights/",
+            "/news/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "privateequitywire.co.uk",
+          "origin": "https://www.privateequitywire.co.uk",
+          "label": "Private Equity Wire",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "news.prudential.com",
+          "origin": "https://news.prudential.com",
+          "label": "Prudential News",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/latest-news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://news.prudential.com/rss",
+              "label": "Prudential News"
+            }
+          ]
+        },
+        {
+          "host": "reinasia.com",
+          "origin": "https://reinasia.com",
+          "label": "Reinasia",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://reinasia.com/feed/",
+              "label": "Reinasia"
+            }
+          ]
+        },
+        {
+          "host": "reinsurancene.ws",
+          "origin": "https://www.reinsurancene.ws",
+          "label": "Reinsurance News",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://www.reinsurancene.ws/feed/",
+              "label": "Reinsurance News"
+            }
+          ]
+        },
+        {
+          "host": "reuters.com",
+          "origin": "https://www.reuters.com",
+          "label": "Reuters",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/business/",
+            "/legal/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "riskandinsurance.com",
+          "origin": "https://riskandinsurance.com",
+          "label": "Risk & Insurance",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://riskandinsurance.com/feed/",
+              "label": "Risk & Insurance"
+            }
+          ]
+        },
+        {
+          "host": "spglobal.com",
+          "origin": "https://www.spglobal.com",
+          "label": "S&P Global",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "startupfortune.com",
+          "origin": "https://startupfortune.com",
+          "label": "Startup Fortune",
+          "primaryRegion": "japan-korea",
+          "primaryRegionLabel": "Japan & Korea",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "theinsurer.com",
+          "origin": "https://www.theinsurer.com",
+          "label": "The Insurer",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/ti/news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "wtwco.com",
+          "origin": "https://www.wtwco.com",
+          "label": "WTW",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/en-us/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "finance.yahoo.com",
+          "origin": "https://finance.yahoo.com",
+          "label": "Yahoo Finance",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        }
+      ],
+      "primaryDomains": [
+        {
+          "host": "jen.jiji.com",
+          "origin": "https://jen.jiji.com",
+          "label": "Jiji Press",
+          "primaryRegion": "japan-korea",
+          "primaryRegionLabel": "Japan & Korea",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "asia.nikkei.com",
+          "origin": "https://asia.nikkei.com",
+          "label": "Nikkei Asia",
+          "primaryRegion": "japan-korea",
+          "primaryRegionLabel": "Japan & Korea",
+          "newsSections": [
+            "/business/insurance/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://asia.nikkei.com/rss/feed/nar",
+              "label": "Nikkei Asia"
+            }
+          ]
+        },
+        {
+          "host": "startupfortune.com",
+          "origin": "https://startupfortune.com",
+          "label": "Startup Fortune",
+          "primaryRegion": "japan-korea",
+          "primaryRegionLabel": "Japan & Korea",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        }
+      ]
+    },
+    {
+      "id": "anz",
+      "name": "Australia & New Zealand",
+      "color": "#5c3d6e",
+      "domains": [
+        {
+          "host": "aap.com.au",
+          "origin": "https://www.aap.com.au",
+          "label": "AAP",
+          "primaryRegion": "anz",
+          "primaryRegionLabel": "Australia & New Zealand",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "adviservoice.com.au",
+          "origin": "https://www.adviservoice.com.au",
+          "label": "Adviser Voice",
+          "primaryRegion": "anz",
+          "primaryRegionLabel": "Australia & New Zealand",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "allianz.com",
+          "origin": "https://www.allianz.com",
+          "label": "Allianz",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/mediacenter/news/",
+            "/en/mediacenter/",
+            "/en/mediacenter/news/",
+            "/en/mediacenter/news/media-releases/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "allianz-trade.com",
+          "origin": "https://www.allianz-trade.com",
+          "label": "Allianz-trade",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "apollo.com",
+          "origin": "https://www.apollo.com",
+          "label": "Apollo",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights-news/insights/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "asiainsurancereview.com",
+          "origin": "https://www.asiainsurancereview.com",
+          "label": "Asia Insurance Review",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/News/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "aviva.com",
+          "origin": "https://www.aviva.com",
+          "label": "Aviva",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/newsroom/news-releases/",
+            "/newsroom/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "axa.com",
+          "origin": "https://www.axa.com",
+          "label": "Axa",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/en/news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "bcg.com",
+          "origin": "https://www.bcg.com",
+          "label": "BCG",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/publications/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "blackstone.com",
+          "origin": "https://www.blackstone.com",
+          "label": "Blackstone",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/news/",
+            "/insights/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "businessinsider.com",
+          "origin": "https://www.businessinsider.com",
+          "label": "Business Insider",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "businessinsurance.com",
+          "origin": "https://www.businessinsurance.com",
+          "label": "Business Insurance",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://www.businessinsurance.com/rss",
+              "label": "Business Insurance"
+            }
+          ]
+        },
+        {
+          "host": "businesswire.com",
+          "origin": "https://www.businesswire.com",
+          "label": "Business Wire",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/news/",
+            "/insights/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "deloitte.com",
+          "origin": "https://www.deloitte.com",
+          "label": "Deloitte",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/us/en/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "gurufocus.com",
+          "origin": "https://www.gurufocus.com",
+          "label": "GuruFocus",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/news/",
+            "/insights/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "insurancebusinessmag.com",
+          "origin": "https://www.insurancebusinessmag.com",
+          "label": "Insurance Business",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/ca/news/",
+            "/reinsurance/news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://www.insurancebusinessmag.com/us/rss",
+              "label": "Insurance Business"
+            }
+          ]
+        },
+        {
+          "host": "insurancethoughtleadership.com",
+          "origin": "https://www.insurancethoughtleadership.com",
+          "label": "Insurance Thought Leadership",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/six-things-commentary/",
+            "/leadership/",
+            "/ai-machine-learning/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://www.insurancethoughtleadership.com/feed/",
+              "label": "Insurance Thought Leadership"
+            }
+          ]
+        },
+        {
+          "host": "limra.com",
+          "origin": "https://www.limra.com",
+          "label": "Limra",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "manulife.com",
+          "origin": "https://www.manulife.com",
+          "label": "Manulife",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/about-us/news/",
+            "/ca/en/about-us/news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "prnewswire.com",
+          "origin": "https://www.prnewswire.com",
+          "label": "PR Newswire",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/apac/news-releases/",
+            "/news-releases/",
+            "/insights/",
+            "/news/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "privateequitywire.co.uk",
+          "origin": "https://www.privateequitywire.co.uk",
+          "label": "Private Equity Wire",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "news.prudential.com",
+          "origin": "https://news.prudential.com",
+          "label": "Prudential News",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/latest-news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://news.prudential.com/rss",
+              "label": "Prudential News"
+            }
+          ]
+        },
+        {
+          "host": "reinasia.com",
+          "origin": "https://reinasia.com",
+          "label": "Reinasia",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://reinasia.com/feed/",
+              "label": "Reinasia"
+            }
+          ]
+        },
+        {
+          "host": "reinsurancene.ws",
+          "origin": "https://www.reinsurancene.ws",
+          "label": "Reinsurance News",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://www.reinsurancene.ws/feed/",
+              "label": "Reinsurance News"
+            }
+          ]
+        },
+        {
+          "host": "reuters.com",
+          "origin": "https://www.reuters.com",
+          "label": "Reuters",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/business/",
+            "/legal/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "riskandinsurance.com",
+          "origin": "https://riskandinsurance.com",
+          "label": "Risk & Insurance",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": true,
+          "rssFeeds": [
+            {
+              "url": "https://riskandinsurance.com/feed/",
+              "label": "Risk & Insurance"
+            }
+          ]
+        },
+        {
+          "host": "spglobal.com",
+          "origin": "https://www.spglobal.com",
+          "label": "S&P Global",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "theinsurer.com",
+          "origin": "https://www.theinsurer.com",
+          "label": "The Insurer",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/ti/news/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "wtwco.com",
+          "origin": "https://www.wtwco.com",
+          "label": "WTW",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/en-us/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "finance.yahoo.com",
+          "origin": "https://finance.yahoo.com",
+          "label": "Yahoo Finance",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        }
+      ],
+      "primaryDomains": [
+        {
+          "host": "aap.com.au",
+          "origin": "https://www.aap.com.au",
+          "label": "AAP",
+          "primaryRegion": "anz",
+          "primaryRegionLabel": "Australia & New Zealand",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
+          "host": "adviservoice.com.au",
+          "origin": "https://www.adviservoice.com.au",
+          "label": "Adviser Voice",
+          "primaryRegion": "anz",
+          "primaryRegionLabel": "Australia & New Zealand",
+          "newsSections": [
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        }
+      ]
+    }
+  ]
+}
