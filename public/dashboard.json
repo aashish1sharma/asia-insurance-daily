@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-03T05:10:01.160Z",
+  "generatedAt": "2026-07-06T10:08:20.256Z",
   "title": "Asia Insurance Daily",
   "region": "Asia-Pacific",
   "timezone": "Asia/Singapore",
   "windowHours": 48,
   "bulletsPerRegion": 5,
-  "sourcesExtractedAt": "2026-07-03T05:08:17.966Z",
+  "sourcesExtractedAt": "2026-07-06T10:06:29.329Z",
   "totalSourceDomains": 48,
   "rssEnabledDomains": 11,
   "sourceConfig": "data/domains.json",
@@ -680,43 +680,43 @@
       "rssSourceCount": 8,
       "bullets": [
         {
-          "tag": "Product",
-          "headline": "Policy volatility and external strain shape China's business risks - Asia Insurance Review",
-          "source": "Asia Insurance Review",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPc25VVzJ6UlMxMWxIb1JmeFZCbVNQcnY3NjdYWEJVdmdSZHAxWWVOc0dOaEg1QzhncWNGYjdEdWlVR1QyRXh3dWg0aHVXZXpZSHYzajRrT1RLcE9HaEljMFotVnJ0MEdja3RJTUZsNUZaWHFibFVKc25lUmJEMlhOUk0wTlRQSDdYMlRkYUpIZ2s3QmlwNGd2dU5PNDByeHQ4elBZQWhKamdmU2c1SkducnJOMmI2MlpZdms3RXJuS0U2alkzeEhjYzdiaFB4a1FDN21adW1VeV9Tc2xGVy1oMGNJaDg?oc=5",
-          "published": "2026-07-03T01:52:17.000Z",
+          "tag": "Leadership",
+          "headline": "Hong Kong must brace for AI bubble risk and quantum computer threat: HKMA chief - South China Morning Post",
+          "source": "Scmp",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTG1aZEx3Rm5lMkw2MHVqUVFOOUo5SDdFT0tWTlc0cW55SHRNa0c0STRoUU42QzR5bmxEeUpVVHNPZjRtUU9SZjF4M3VJME9PVGpZemJEZXhjZlpFV1FUVEpUM1czSDB2a2JYYm1RUm12bkZmVmY0al9pSnVSdkxONTBsWEh3WEhGSWc3anRXWldRTkpaQjN4dHBvdGUxUUFYYkZVVVFlMDlTT1pIZTlLVjhWaVU0cGdiVkFLRXRJVDQtUVVsRlNwM2lEWjFPczJvVVZSenVVWkNkazVp0gHcAUFVX3lxTE9MbVpkTHdGbmUyTDYwdWpRUU45SjlIN0VPS1ZOVzRxbnlIdE1rRzRJNGhRTjZDNHlubER5SlVUc09mNG1RT1JmMXgzdUkwT09Uall6YkRleGNmWkVXUVRUSlQzVzNIMHZrYlhibVFSbXZuRmZWZjRqX2lKdVJ2TE41MGxYSHdYSEZJZzdqdFdaV1FOSlpCM3h0cG90ZTFRQVhiRlVVUWUwOVNPWkhlOUtWOFZpVTRwZ2JWQUtFdElUNC1RVWxGU3AzaURaMU9zMm9VVlJ6dVVaQ2RrNWk?oc=5",
+          "published": "2026-07-05T06:35:45.000Z",
           "via": "sections"
         },
         {
           "tag": "Earnings",
-          "headline": "Since Q2, insurance funds have accelerated their purchases of Hong Kong-listed equities - 富途牛牛",
-          "source": "富途牛牛",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNkZ5cDNMRHJkenQ2YlY5d251blYwNndiTE5TY012RFc3ZzBvbTlOLUlmUW5Jd1hYZ3RLUGFPU2pRSXd3eFNtbHRBVTVXLV9nQjdDcW5VYWRMWGhleWxuU2F2dWtlWVNZekZZMEZMRnVWM1pvd0c3aVJlTmJXTXFOaFhLbjh4d2VCUW1SVkxZN2RFU09FWG5UREVQelY0R3pMdFJFUWx3SzF2dw?oc=5",
-          "published": "2026-07-03T02:46:31.000Z",
-          "via": "google-news"
-        },
-        {
-          "tag": "Earnings",
-          "headline": "Since Q2, insurance funds have accelerated their purchases of Hong Kong-listed stocks: Ping An Group has acquired over HK$10 billion wort…",
-          "source": "Moomoo",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNM2NQWmMzdXVVTEtUOUJQZFZibFpyc0dJM1haaXY2MlYzcUJ4OElLSWhxQXFJdUhMeU4zWXdsWE05V1pjNHNCSVh6RDZkMzUyRmg0cWtXaG9DUFMyenBtRmdqZTFoOUFLQ1BFRUFYamtYTlpWcWx4REhhVlFQN1ZhSW1tVnVBVllpVzN1QWFMZFlpVlpHYmJQbEpOeklzQTR0b1oxR05WbWN4QVU?oc=5",
-          "published": "2026-07-03T00:59:01.000Z",
-          "via": "google-news"
-        },
-        {
-          "tag": "Press",
-          "headline": "China rolls out major reforms to shift insurance industry toward quality growth - Asia Insurance Review",
-          "source": "Asia Insurance Review",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPY21CNW9GcVA1eWJDU3pmbmgzV056SGdHWEJzemhmZTVnYjdFYXRQZmFLSFJkbjJheEpmalVZX05YNTU3SlNjSWJMd19SMk1OQW9aLWhpa1FnekxBU29TRkRIU2IxbW5WUjFBNzBIREVqSExZT1QwVktUMlhoa0ZnbUpxc19RNnMyMDVicS01cFZZZzN2RTI1RHE2SzRPRWhCeVNOUDdWRnV3a3JONjJ6SHk5dWVRdzV1a3JzWE9WamtHT21CNFRwLUlveVgxZ0JhZFNUWmdUZjk0WDVmb0paZm4tdEJMZi1BMkZ5aXcxemdiQzJUdnc?oc=5",
-          "published": "2026-07-03T01:51:54.000Z",
+          "headline": "China claims pressure eases further in April as premium growth moderates - (Re)in Asia",
+          "source": "Reinasia",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbEU2RlhwQURQRkZTZ2JUei1vZHY2QjdOVThQdlRvRnkxdDRyQnVzcS1OczBhQmFudmVVMDRRYlFrTEJzLWNWNE10cnc4QlNhamp0bGdkcDZwNl9UUlRWTFhVd3BoaWpOYUczQ0lDX2s0V1hwM0RERHRnR0xmbUw4NkZUZWRKeFJucWdIbndSdHhnMW5GZXBZMk5n?oc=5",
+          "published": "2026-07-04T12:04:27.000Z",
           "via": "sections"
         },
         {
           "tag": "Press",
-          "headline": "Hong Kong Life Receives the Certifications of \"Hong Kong Registration - Silver-Friendly Financial Products\" Presented by Hong Kong Qualit…",
-          "source": "PR Newswire",
-          "url": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxPZGlUSUZoZXhDQzh3VWgtM0plYWNVekktOVhyRUx2c2lzdklfSlpXWEVxTHI3cENaSGpJV2ZfNnhKNlRrZm1fR0x5VzktQUhNR0F3WHg0NVgyMENKMXAxOUFoLW9lT1BIZ0c3dUNqRnJVV184S21OY1VvQ0FuSkRlb1BFQVVjNXFTUm5VcEJJUDNGSWJOeDQtOUlfRGFtWUJvRVN0UFFzUHNXbTZNMGtIZjBEaERXb0VzeTVBY0dsNWt3R0hwUVkxNTAtR2YwVHBNVkhKTVZvbDNLUVNBMjFVX2FsaGNLOE1KckU2YlBXbUZsM3RONnloeF9mejhvMVFCTlVHc1E1OTEwZE82VEN2QzJZbDVPa2dkdC1PQ3JhalRaNUI0LUI4dDlvTTh4TC14NkQtWjJucm52OHRyOHlCNkpHMEIzdUE0dVgxNk5rWU9HUTM5NGdzOXF3clVxZUlZLVdEc1BzS2M4c3A4Y0JVZl90dw?oc=5",
-          "published": "2026-07-02T11:00:00.000Z",
+          "headline": "AIA Healthiest Schools Competition 2025/26: Hong Kong Winners Announced #AIA - Media OutReach Newswire",
+          "source": "Media OutReach Newswire",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQldlcDN5bmF5SVh2elNRRlNTUWtQYzk3eEVjdlRXTU5XcTdTRk5LZEJRY1h5ZDV4bzhoZGdkR0tQU0llVnQ2TjRQUGd1SXFuZEpCMm92ZXVmWmVJQ3RRaHNQV1RKc2hUYVQzOGRud2ZmZU1VMTVzT0FNdHpDZGs4MFJVcFRMU1ZJMXJiVGRxMEtacjNZWHpVNG1McU5EbXBLMTZyRVZvWFN1SUZPQXlheEFvbWVEUE8zSG4wYkpmRFhhQ2tjNC1sNDNNXzVVNWJM?oc=5",
+          "published": "2026-07-06T06:27:49.000Z",
+          "via": "google-news"
+        },
+        {
+          "tag": "Press",
+          "headline": "China: Insurance cover for workers in new forms of employment will now be available across the country - Asia Insurance Review",
+          "source": "Asia Insurance Review",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOZ2ZOeG94U01LN1VBMndLME5jeVpWUG9mWl9YVXdrUXRLLXpDWlZoNW9vajBLX1gxVFhPWUEwdHFxYkNNSmh1VEVRRWpyVkZfN29sWFA3RUgyblJaX19Cdi1SeXVCQl8yNnZHWXVGd0FEV204SkRhUWxObWFoMnJaNmlUOVlvZXU4SjhkaUE5MnBCQVlWbl9wMndGNi1vTnZlamxYNUlXSnp3ZVVmQ2lISm5CMkpTQlJBemFfVTloQnJTUDRqQ2tMOXFJNjM0ZFV2MVdYTl81Y08yQVduNGJ3WXhJOTlWcG91NmVFeUx5Rjk1Q1g1WFpvREQ4SXBDTGF1TWpOaTBFNWNhaV94T0FaTzZwbGVEdw?oc=5",
+          "published": "2026-07-06T00:00:32.000Z",
+          "via": "google-news"
+        },
+        {
+          "tag": "Press",
+          "headline": "Prudential plc [LSE: PRU] Trades Below 2026 Buyback Average Ahead of Hong Kong Filings - Kalkine Media",
+          "source": "Kalkine Media",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQk0xSnlfWXpwelVmclhKSFRSUF96MzduSlBBOEZOVW5iVG0zUTU2eVYwSFNqazRDVmtVUDl2STg5OEdPcXY0WE43NkNTMkxLdHQ1U3hMRnZOUDcyOGd3X05faV9yb3pacDBtdTNXdFpOOUtmcVhwV3ZZbGNpa05LZzFNV3JsVHF1bzFkaDF1emhOVmthVGZ6WWROWUhuLTNMS0I2alZCWVNLOGlHQTlTM2lYSEVKV05hb0c0Zy1PUkhoRnZPVUx3?oc=5",
+          "published": "2026-07-05T05:00:00.000Z",
           "via": "google-news"
         }
       ]
@@ -730,43 +730,43 @@
       "bullets": [
         {
           "tag": "Product",
-          "headline": "From now on, an official policy will take effect, granting 100% health insurance coverage to many residents of this locality. - Vietnam.vn",
+          "headline": "Gia Lai aims for universal health insurance coverage by 2030. - Vietnam.vn",
           "source": "Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPajYyN0xJbWNIbXBwRk1pUGxUd3hkaFR6MDdTYnhCRjd0ZjlrUVQ4NVB3eTg5U3Fhb2pTblpiRWNxaUZnbENRTHRRcURTVmM0Sjl2MFFfSWY4Y084ZzViX3Q0a01FVDM0NkFCSGFKdDZEQUUwTWZuMl9qRnNveFdORy1YcTJNdzAxb2pxOXJMWGFLZzJ3Mk5uNkNNZGVQcXlXNTA5bXBtTXpobWhOd3F3aGprTC1kM2g3SVZtaUwyd1JzWmJlY1ZYRw?oc=5",
-          "published": "2026-07-02T17:37:20.000Z",
-          "via": "sections"
-        },
-        {
-          "tag": "Strategy",
-          "headline": "DBS and Samsung Securities forge wealth management partnership - Fund Selector Asia",
-          "source": "Fund Selector Asia",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNmhQZnl4aEU1X3RJWXpzUmRnT0ZCT2ZrV3V4NkUtemFqaTN2Q3lyeC0yaWlIVjRhMEgtMTROZHRaWWRvQ1ZtQlBDdEhqcDNxZUpVc2FoMi1LOTltZFU5VkxGNGlVblVvdGxrVmJraERXTXVWeEZfd0NNcGJ0RC1RTm5qWlNqX19PTGZyRGN1RVRRc04yTXpz?oc=5",
-          "published": "2026-07-03T03:13:31.000Z",
-          "via": "sections"
-        },
-        {
-          "tag": "Press",
-          "headline": "QBE takes full control of India insurance venture - Insurance Asia",
-          "source": "Insurance Asia",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaHdrYjJNVHNCaHVzbHpCNmV5OGI5OUprbXFpc201dnF0MWZsTnZXSVd5NTBzcWhKSHA1QTlJWEdhR2ZpTk5hd2dDRkVMQzAxNkxKajM2Rms3bElDd01JT05rbTdWeER5Z21iSzNndHF5N2VDbzUyU3ZnZnNRUjJBWUdYQXBsOUFGaHZYMjNOTHI?oc=5",
-          "published": "2026-07-02T21:45:00.000Z",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTjdCNkpwOWpWS2xwY2J1UWZLMHlja1B0Z0lRa3ljNzFUTElPRzZwMDhQTEpubnFVcjMzUGROSUxoYURFeVROQmNlal9KX285RDlGYWFlWDY3QVp3ZFRBbTJLeDdtNXFLaVoxTUdvbE1yOTBJU2ZHZUNMU00taHI2YXVVeTA?oc=5",
+          "published": "2026-07-05T08:39:48.000Z",
           "via": "sections"
         },
         {
           "tag": "Product",
-          "headline": "Proposal to expand health insurance coverage for PET/CT scans for more common cancers. - Vietnam.vn",
-          "source": "Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOHRpZFo1UXBHVWk3VHFuU1ZrMklIdXdyT2lIcTBVeWxIazBMRlNBSkI5V1ZXSFhlak1WelpGYWpvSWcxRk9LblZCeDNrbDBkMEVRNTAtX3ktZUFjaEF1amFFYjBsYW8wdkwtT3RtWGRhS1FBUUNwcDdPTVMwUEl4TUNVSEN1WFJmeFJEeVkweXRVWVh0TzVQbFRzaDFEQmtGRkVySVYxMW0?oc=5",
-          "published": "2026-07-02T07:40:50.000Z",
+          "headline": "Prudential launches care service as Malaysians delay treatment - Insurance Asia",
+          "source": "Insurance Asia",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSjhLZlRPVG1hRzRjbkFPaWc2OTBEemgzRmpBVm9Vdml5OVBlSW0zd0tJTHk1RmFpT2UwUXRwYXBTRS1mMWwwRGktUktZLVo3UVNyM0Q2VE9xdjJpVzFFZG8tekdDSnVOS21GMHdJSUJLV0J0LVVBZkdHTnZkUThNWGYxcWhVMTdieEdXeGVRSTRsS3dmQzRlNFFqY3lGYnd4d1E?oc=5",
+          "published": "2026-07-05T22:00:00.000Z",
           "via": "sections"
         },
         {
-          "tag": "Regulatory",
-          "headline": "IRDAI commissions study of insurance ‘dark patterns’",
-          "source": "Reinasia",
-          "url": "https://reinasia.com/irdai-commissions-study-of-insurance-dark-patterns/",
-          "published": "2026-07-03T03:00:00.000Z",
-          "via": "rss"
+          "tag": "Press",
+          "headline": "Zurich Taps AI to Close Asia’s SME Insurance Gap - finews.asia",
+          "source": "Finews Asia",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdGpvNlBVU1h2Z0R4dmZkWWJzRGhvT3RYRDBOR0pyV0E5VjRZSjZYVHVpNndTb2lZN1dMSmZRQVVzdlNUOXlab2tMamVTaWVpRGdNVEhaeGptMF9IZ3BuS0dtSk0tRUkzTGZuSDVDUHdNUFZjeVJDUXBNRVZXckJYa2cyaEJFb0E4NHlXak5URQ?oc=5",
+          "published": "2026-07-06T04:39:00.000Z",
+          "via": "sections"
+        },
+        {
+          "tag": "Product",
+          "headline": "Adjusting pensions and social insurance benefits: Strengthening confidence in the policy. - Vietnam.vn",
+          "source": "Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY1B5bW5yMnVPRjhRMDdiZUFFQzVLMzlHcmwxaG1iMDVhS0lobi1uREtNZGdIck0wXzRvUnBkRFBCaVVTcU03cXZKYUVBQzRmZVNXbkpwcThKcloxWXB5Qnh0MEpWOTJoV3N0c2kxWWN0dWstNGFjZVJlWG9paHViSnV5SWJINGRTTlNscTVBNWNGajhNMkhoMnRoM2ZabXNuVXdVNg?oc=5",
+          "published": "2026-07-05T03:25:53.000Z",
+          "via": "sections"
+        },
+        {
+          "tag": "Press",
+          "headline": "Medical Insurance News - The Latest News, Insight, Commentary & Analysis at Insurance Asia - Insurance Asia",
+          "source": "Insurance Asia",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmRE5fR0lBQmFkRHBaVTA0cnFOa3J4Y3EtYWhLT0lJbkFKWkxqMzJBU2JCcTVIOGFPZE1COGFNanFhMVBXLTZCeTdtWlJTMERVNTFtOWtRTlhtdTRucDBMLXdKT3gzdncy?oc=5",
+          "published": "2026-07-06T04:18:36.000Z",
+          "via": "sections"
         }
       ]
     },
@@ -779,43 +779,43 @@
       "bullets": [
         {
           "tag": "Press",
-          "headline": "Japan to offer trade insurance on loan for Reliance's India solar, battery effort - Nikkei Asia",
-          "source": "Nikkei Asia",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTmxOQVFNaEVRdXhuYldQVjBLcWFKNHpmSjVSOF90dFhPMm1nSVVXRVlrUVFRZVNrNEsxaXZnX1RkLUtveUE3VFpFT0RjaWFGbV9tc19CcjJuUnF6WVJCZldDbG9GUkdFMFZHV1BJcllOVWFrSm5sY0FBNWFXLXBFSkc4eldHdlNkdi1vNEpLUzBtWDVPZVBHdzd1ZzNxY2RIa2g0Yl9MSXpSQ2t4OHJHQVZqM3Z6WlhlYkE?oc=5",
-          "published": "2026-07-01T16:32:00.000Z",
+          "headline": "INTERVIEW: Kenporen Seeks Medical Insurance Reform Talks - JIJI PRESS",
+          "source": "Jiji Press",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBiVHFRdFhOTDhHajVuU1o4T2FrQkdBS0J1MzN0WWNEaHBnOEF1YXpyeUhsQVRwejdWSV9VREhvaWw0S1BkcVpZX3ctdVU2S0poVWlKV1pKaFg3ZmhqU0E?oc=5",
+          "published": "2026-07-06T06:52:14.000Z",
+          "via": "google-news"
+        },
+        {
+          "tag": "Press",
+          "headline": "Athene appoints Larik Hall as SVP and Head of Japan - Reinsurance News",
+          "source": "Reinsurance News",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY2cwb3VPdW5lUHZnbmw4LWh3Z2xoWmI1NnJ4U1BRaXVBZFFrbkdDMi1XUXpLVzZRSEUyMUVtOGVMUEpFaEwxUnhSeXFqQXI2RHB2ZVZPcHZGY3BCZ0JieGE2RzlQYUVtakVKWUFfb2luZXdWaGM3V3IxTzRiaHBXVUZQTG1UYngt?oc=5",
+          "published": "2026-07-06T09:02:49.000Z",
           "via": "sections"
         },
         {
           "tag": "Press",
-          "headline": "Aflac Life Insurance Japan Ordered to Report Details of Info Leak - JIJI PRESS",
-          "source": "Jiji Press",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42bnAxM3UwdVZoN0lyR0tnNWxmYmFpLVBOd0ZNbHlHRTcwZzB3UXdUNjhQVUczYlZ1N2pTdFRmNnM4amFqRFhTX1NVcjFpeWduRjNScmtZZll2UWc?oc=5",
-          "published": "2026-07-01T09:47:55.000Z",
+          "headline": "Korea&#8217;s FSS hands non-dispute complaints to insurance associations",
+          "source": "Reinasia",
+          "url": "https://reinasia.com/korea-insurance-groups-to-handle-some-non-dispute-complaints/",
+          "published": "2026-07-06T03:07:00.000Z",
+          "via": "rss"
+        },
+        {
+          "tag": "Press",
+          "headline": "IndusInd Nippon Life High Growth 2 (0P0000NPKC.BO) interactive stock chart - Yahoo Finance Singapore",
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE15XzFyVnNnejc4QjV2TXhlMUtvMEhjdC1ldXJKX1JIVDIxcm05QU9JbFd5ZjdQRVhkNGZfZ1Q0R01PclRVRWJBNFVhdjhPLTVsWmVFVEx2c0tLendCbG1ndThrQmV2Zw?oc=5",
+          "published": "2026-07-04T04:23:21.000Z",
           "via": "google-news"
         },
         {
-          "tag": "Leadership",
-          "headline": "Japan insurance industry names new GIAJ chairman - Insurance Business",
-          "source": "Insurance Business",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOXzdsUFc5VUlZQndSQjF0allJMW5LdUpsNTZVdy1rd2ItUnVsazg1WF9XdWs4eWJsWEZTZEktbkpyY2pfeWM4Tl9GeDNhWmQ0YWJST3RhWHl5VG9yd0phWnBKS3MyVDZLTUV3QUtHd2diMXpqNVVnV0phanlRb1NrLTd6cm1oc1MtdGZmZEtGUE9DNVA1dnhrRjFLQXh5R2t0VE5TQUtRdXdCNW9vOGliWkxhZ2lxRlpueHA1WE5B?oc=5",
-          "published": "2026-07-02T17:10:56.000Z",
-          "via": "sections"
-        },
-        {
-          "tag": "Leadership",
-          "headline": "AIG Japan appoints Umeda as Vice Chairman as Shimoyama transitions to Senior Advisor - Reinsurance News",
-          "source": "Reinsurance News",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSWlsTGJSTVdEMjY1SkRyMGw5U1V6Ty1Lbmx4Nm1SR1VqcDR5dEQ2VE04Tms2b3BQazEyMXJSOGdBQnFrVWNSY1RCQUVPclo1akdNVzZKT0tYaUR3cmVJOTg1dklWOXJqNnFPeDR1NnB1OEg4X0JQXzE5NkpGSnR5bHBBSjZzdXoxQ3JYNElvRGJfZ3NOa29rVG1qNFBsb2hid0ZSUkV4clBEQzItWkx6MFpkRWc?oc=5",
-          "published": "2026-07-02T05:30:23.000Z",
-          "via": "sections"
-        },
-        {
-          "tag": "Leadership",
-          "headline": "Japan's general insurance association appoints new Chairman - Asia Insurance Review",
-          "source": "Asia Insurance Review",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPTlZpaFlyU3dFTng4dGdOelZOV3N1UUdPcHRubGNZY2hrdWlGNEo2OEFndUM3NTVBZzJoQjhwWEh1QUdSaVZxRTVBN19hQldXNkwzSmxkV1czTnprLUhLUEdnRndOdm5oaktCVmZSbDI0ekFCTW1RZEtIM3JQcEh5cmJZUDV2Q29EUVYtbWlPTW9ZTlM2bkZCWEtod1c1dWQxUTE2bFdRaTlqb0ZuYVp1NEN4U3J3R2kwd1kxTUxhd2JzMUQxZDl6eUhKT2h6NC1ONGNtczE4QW83RU0?oc=5",
-          "published": "2026-07-02T00:00:50.000Z",
-          "via": "sections"
+          "tag": "Press",
+          "headline": "Senior Portfolio Manager in Tokyo, Japan | ការគ្រប់គ្រងគម្រោង និងយុទ្ធសាស្ត្រ at Manulife - Manulife",
+          "source": "Manulife",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ELW0xaF9tS2lrR1czRy1wT0dsTVAtU3FKMlEzTzJES2RDRXhPQzczbGRJTkJqcGhLT2FtaktUS2l6MUZtZlBaeV9QelItakFTOGg1TXdXT0t3ZF9Ib2NKWnJFOHk5djRuT1EydGNjeldWaUhJcnJ5RF8zSUJTcms?oc=5",
+          "published": "2026-07-04T00:46:50.000Z",
+          "via": "google-news"
         }
       ]
     },
@@ -827,44 +827,44 @@
       "rssSourceCount": 7,
       "bullets": [
         {
-          "tag": "Product",
-          "headline": "ANZIIF launches inaugural 2027 International Insurance Summit - AdviserVoice",
-          "source": "Adviser Voice",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZUR4NzhQaFNKUE9MRmlUMUFKamVwOU1OcVFER1hfcnUyMDBoM3EzcW9YYVRWMkZFREFIc09qREtqalctcE1RaEFzam5rcEkweTBEbXVLRUxSQVJRWU11eFRZY3U0aGNwNUdqWHVJUHl3Wm03NllEOS1aQU9oWGFYRGZKbGIzQ3cydG4waVYtZzRPNnBwMjlFUE4xcXZ1eXdZTXRnNA?oc=5",
-          "published": "2026-07-02T21:26:22.000Z",
-          "via": "sections"
-        },
-        {
           "tag": "Press",
-          "headline": "Aussies face 'poverty premiums' on insurance payments - aapnews.aap.com.au",
+          "headline": "'Bullshit': Socceroo slams Hanson's monoculture claim - aapnews.aap.com.au",
           "source": "AAP",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNjBJTlVRSmR5aUVvQ2gzcjNaaUtlQlpFekhiajJJQVFTTUJneFpEc3ZYbjBCQ1o4R3JFQzlwQ0NXTUd0RWJ6UmpOb0tyenIwQklKTmIzS05IQnlnSGtLdEVJMjlRVTJGWlBUYkhFUTNBeWNxLUVldkhmQXpQMVNmMXpjaGxQbU9sRmE4?oc=5",
-          "published": "2026-07-01T19:00:00.000Z",
-          "via": "google-news"
-        },
-        {
-          "tag": "Regulatory",
-          "headline": "APRA carves out cyber, management liability as standalone data - Insurance Business",
-          "source": "Insurance Business",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWTNQc2t6MEtBdHhhNUwwTXZVSGhhcmJvU3JkeUhZWlRSOFVZX3AxcmZfSEZ5T0JmZGF5WlkwWWNaLWt3Vk1MQkpVQnFtMnNJS1VPeDdyWHpnNGYzWWRtNFhFS2NONEtPTm9BMVpTUDdGMy1MZExJN0cwY0tzZzlIZDByQ0pkOHZmUjcxN01GZnpWRmE2LVNfa1pMYWp5WXRqMWwxRGhKS09HZ2hCcjI4Z0FFN1F4THR2TmhSb2EzclpBb00?oc=5",
-          "published": "2026-07-01T09:43:57.000Z",
-          "via": "sections"
-        },
-        {
-          "tag": "Strategy",
-          "headline": "Zurich enters Australian home insurance market through expanded Honey partnership - (Re)in Asia",
-          "source": "Reinasia",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSXlma0UtRU9XUHNEWnhaUWFHR3lPZnhSLXdLbTkxQmQxQ201ellOR0p1RFVzVFN3UkR2Ymw2RnhaUUx3VVNNY3JSY3NDcUp2bmRGaE5rY3M0SUozMkQ1VDRvR2ZMOTBZX01sWHFzRzJISERDUEVlcnhZb1dPSkhyM1hla2tsUVZUYjVRbW9wR2tDMDhrTERJX2N1S1I0REFDZm9Hd1BB?oc=5",
-          "published": "2026-07-03T00:20:30.000Z",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbFdrdXk0dkxpVWlDVFpQLU5xQ0dOLXpZMUI0OTRsZkcybUtKaG1wd3J3d2Jmd2FIcWZIRjZjeFZQR2F6QWZmMHFpVDJsWTRKbm1vVzA4UFdnSkR2M2V1ckc4QVdjeWI2eEZXeFFMMW1xQU04eWZKbW4yZTI2SUwtSkFqa01yTERpV3c?oc=5",
+          "published": "2026-07-06T06:56:00.000Z",
           "via": "sections"
         },
         {
           "tag": "Press",
-          "headline": "APAC: QBE takes full ownership of Raheja QBE General Insurance - Asia Insurance Review",
-          "source": "Asia Insurance Review",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNGdheGNxUG1xalJ0ck9pYm9SUXR4TVhkZkhWU1JFWUZmU1VSQ0kxRWVpeEFDQWlTYm1SMVAyN3FxTm5LVlM1YXFaMkRRYzFaZlJtSV9ycEVVN2ROUzJsb0ZnWERIamIwYlBXQlJmbzdicVpFMXBicTdkUmRjV2R4WmFnQWdmZFlPOUpOSmJsQTdsZnFCLXExNXdJaG01V211NUdlZEhSb0NCZWs4bER4OXVKVE1iYlU2VUt1REJTV05OWk5nUTJUUUtEN2JpdlRxa05rMl9iUnJDUl9Hemc?oc=5",
-          "published": "2026-07-03T00:03:27.000Z",
+          "headline": "Trump offers to help broker stalled Ukraine peace talks - aapnews.aap.com.au",
+          "source": "AAP",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVmlkdVQ0QWpacnNRX1kwS2xpVlh0NzBtcDdaTUo0b29uUHQ1WnlPUnEtRDhUMm9wbkJxZDZQb0RsdmljcG5ROTZWZ0FGekxpa25kVU1HSzlsUUJvNUJxZE1wYVBaM2NPcTBQXzNPbTI0OEY0ZW5jdlhjOHkzOHFEdFBBeDhsdTBBWWdEUGJ2SQ?oc=5",
+          "published": "2026-07-05T00:39:45.000Z",
           "via": "sections"
+        },
+        {
+          "tag": "Press",
+          "headline": "Suncorp increases reinsurance limit to A$6.4 billion - theinsurer.com",
+          "source": "The Insurer",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY21YM25HQTQzOUhLZC1Tc3kwSk5IQzFhUWZuWEdyMWFKeWpRa1RESUtYTlJ4c3R2WW1PT0pmNEw0WTZlY0FhZ1NDU0daWnQzQlFHRjJRQTM1N1pKb2tWeFBkcndhNWo4cXJuYktHYktQOHprcUJfY1h4NUJCN0hWTkZsVzN0T25pZnFFSGNHempHR2NSeVdDcmpjM3JjZw?oc=5",
+          "published": "2026-07-06T07:36:48.000Z",
+          "via": "sections"
+        },
+        {
+          "tag": "Press",
+          "headline": "Australia proposes sweeping overhaul of private health insurance system - (Re)in Asia",
+          "source": "Reinasia",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTVFqTy1oa1pscmdRdkVSYnJ3dVFTdFQtTURwWl9haTUtU3huTUhNYjdaZS1MUFhMVktKMl9yc2RaWnBlZEtqWVhxRXFCVXZkR0pLc3ZoVTVIRVQtTVFhU2VrMndDUEFJM05iNEVnUEFUU3dmSS1GTVpfQm1Wdk1aZHBhQWFDdmxmenB1ZDRkTm5QMHRKVllmbQ?oc=5",
+          "published": "2026-07-06T00:52:18.000Z",
+          "via": "sections"
+        },
+        {
+          "tag": "Press",
+          "headline": "New Zealand: New Zealanders demand stronger action on climate hazards - Asia Insurance Review",
+          "source": "Asia Insurance Review",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZXlnQnhGa3czOVNJYWhTTmhXaDBoREtKSXpzT0hqeXpaNVN6d01zdFE3U3JvTW1VUGJLd3BQU0xKdmxMVkY5Y1FBdlNkVXAxby1jSl9VdWttSE0yT3Qta2ZpcGtDcWtDcFItb29tT2xmaWZNY0JkaVotNWxOcEpYRHdlQmpkazhLZHE1V2ZhUTQ3YnBlam9ZbjJkQ0sxMXkwdk56NkdSUTE5Tm9FYjcwRzA5bXlETDdiM0MxeXo5a2hRcVZkTTQwWTktblZaRjV0d2p3RkFwNW81OUNjREctaVdOb2R5b0U?oc=5",
+          "published": "2026-07-06T00:00:29.000Z",
+          "via": "google-news"
         }
       ]
     }
