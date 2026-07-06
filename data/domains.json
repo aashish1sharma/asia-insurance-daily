@@ -413,15 +413,16 @@
       ]
     },
     {
-      "host": "gurufocus.com",
-      "origin": "https://www.gurufocus.com",
-      "label": "GuruFocus",
+      "host": "deloitte.wsj.com",
+      "origin": "https://deloitte.wsj.com",
+      "label": "Deloitte WSJ",
       "primaryRegion": "global",
       "newsSections": [
-        "/news/",
+        "/executive-perspectives/",
+        "/cfo/",
+        "/ceo/",
         "/insights/",
-        "/news-releases/",
-        "/media-releases/"
+        "/news/"
       ]
     },
     {

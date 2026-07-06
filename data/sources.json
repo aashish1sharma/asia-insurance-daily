@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T10:06:29.329Z",
+  "generatedAt": "2026-07-06T15:57:50.398Z",
   "sourceConfig": "data/domains.json",
   "uniqueDomains": 48,
   "rssEnabledDomains": 11,
@@ -252,6 +252,24 @@
       "rssFeeds": []
     },
     {
+      "host": "deloitte.wsj.com",
+      "origin": "https://deloitte.wsj.com",
+      "label": "Deloitte WSJ",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "newsSections": [
+        "/executive-perspectives/",
+        "/cfo/",
+        "/ceo/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ],
+      "hasRss": false,
+      "rssFeeds": []
+    },
+    {
       "host": "eastspring.com",
       "origin": "https://www.eastspring.com",
       "label": "Eastspring",
@@ -292,21 +310,6 @@
       "newsSections": [
         "/insights/",
         "/news/",
-        "/news-releases/",
-        "/media-releases/"
-      ],
-      "hasRss": false,
-      "rssFeeds": []
-    },
-    {
-      "host": "gurufocus.com",
-      "origin": "https://www.gurufocus.com",
-      "label": "GuruFocus",
-      "primaryRegion": "global",
-      "primaryRegionLabel": "Global",
-      "newsSections": [
-        "/news/",
-        "/insights/",
         "/news-releases/",
         "/media-releases/"
       ],
@@ -1019,14 +1022,17 @@
           "rssFeeds": []
         },
         {
-          "host": "gurufocus.com",
-          "origin": "https://www.gurufocus.com",
-          "label": "GuruFocus",
+          "host": "deloitte.wsj.com",
+          "origin": "https://deloitte.wsj.com",
+          "label": "Deloitte WSJ",
           "primaryRegion": "global",
           "primaryRegionLabel": "Global",
           "newsSections": [
-            "/news/",
+            "/executive-perspectives/",
+            "/cfo/",
+            "/ceo/",
             "/insights/",
+            "/news/",
             "/news-releases/",
             "/media-releases/"
           ],
@@ -1600,6 +1606,24 @@
           "rssFeeds": []
         },
         {
+          "host": "deloitte.wsj.com",
+          "origin": "https://deloitte.wsj.com",
+          "label": "Deloitte WSJ",
+          "primaryRegion": "global",
+          "primaryRegionLabel": "Global",
+          "newsSections": [
+            "/executive-perspectives/",
+            "/cfo/",
+            "/ceo/",
+            "/insights/",
+            "/news/",
+            "/news-releases/",
+            "/media-releases/"
+          ],
+          "hasRss": false,
+          "rssFeeds": []
+        },
+        {
           "host": "eastspring.com",
           "origin": "https://www.eastspring.com",
           "label": "Eastspring",
@@ -1640,21 +1664,6 @@
           "newsSections": [
             "/insights/",
             "/news/",
-            "/news-releases/",
-            "/media-releases/"
-          ],
-          "hasRss": false,
-          "rssFeeds": []
-        },
-        {
-          "host": "gurufocus.com",
-          "origin": "https://www.gurufocus.com",
-          "label": "GuruFocus",
-          "primaryRegion": "global",
-          "primaryRegionLabel": "Global",
-          "newsSections": [
-            "/news/",
-            "/insights/",
             "/news-releases/",
             "/media-releases/"
           ],
@@ -2497,14 +2506,17 @@
           "rssFeeds": []
         },
         {
-          "host": "gurufocus.com",
-          "origin": "https://www.gurufocus.com",
-          "label": "GuruFocus",
+          "host": "deloitte.wsj.com",
+          "origin": "https://deloitte.wsj.com",
+          "label": "Deloitte WSJ",
           "primaryRegion": "global",
           "primaryRegionLabel": "Global",
           "newsSections": [
-            "/news/",
+            "/executive-perspectives/",
+            "/cfo/",
+            "/ceo/",
             "/insights/",
+            "/news/",
             "/news-releases/",
             "/media-releases/"
           ],
@@ -3117,14 +3129,17 @@
           "rssFeeds": []
         },
         {
-          "host": "gurufocus.com",
-          "origin": "https://www.gurufocus.com",
-          "label": "GuruFocus",
+          "host": "deloitte.wsj.com",
+          "origin": "https://deloitte.wsj.com",
+          "label": "Deloitte WSJ",
           "primaryRegion": "global",
           "primaryRegionLabel": "Global",
           "newsSections": [
-            "/news/",
+            "/executive-perspectives/",
+            "/cfo/",
+            "/ceo/",
             "/insights/",
+            "/news/",
             "/news-releases/",
             "/media-releases/"
           ],

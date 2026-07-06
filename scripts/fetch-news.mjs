@@ -24,17 +24,40 @@ const CEID = "US:en";
 const LOW_SIGNAL =
   /\b(top \d+|best \d+|how to|stock to (?:buy|watch)|share price today|brokerage reco|buy rating|viral video|stock surges|women of influence|mortgage pre-approval|fda approval|sickle cell|robotics federation|gf value|is it too late to buy|tipranks|ad hoc news)\b/i;
 
+const MARKET_DATA_EXCLUDE =
+  /\b(trades below|trades above|buyback average|interactive stock chart|holding history|stock chart|share price|stock price,?\s*news,?\s*quote(?: & history)?|latest stock news(?: & headlines)?|options chain|company profile(?: & facts)?|stock forum|gráfico interactivo|stock may be \d+% undervalued|\b\d+% undervalued\b|\[(?:LSE|NYSE|NASDAQ|TSE|HKEX|SGX):|\([A-Z0-9]+\.(?:BO|NS|L|HK|TO)\)|\([A-Z]{1,5}\)\s*(?:stock|latest|balances|risk)|(?:^|\s)(?:0P0000|[A-Z]{1,5}\d+\.(?:BO|NS|L|HK|TO))\)|gurufocus|kalkine media|stock titan|ishares .* trust\(|portfolio holdings|mutual fund|fmcg fund|high growth \d+)\b/i;
+
+const HUB_ACTION_VERBS =
+  /\b(launch|appoint|report|survey|deal|profit|regulat|merger|partnership|reform|coverage|premium|delay|aims|taps|teams|claims|offers|introduc|expand|sign|record|approve|reject|raise|cut|boost|warn|unveil|partner|acquire|invest|enter|secure|win|name|elect|hire|step|return|build|create|develop|provide|deliver|help|support|enable|drive|shift|move|set|plan|expect|forecast|guide|urge|call|seek|push|back|lead|join|leave|quit|retire|hand|cashing in)\b/i;
+
 const CAREER_EXCLUDE =
-  /\b(business solutions manager|solutions manager|relationship manager in|manager in (?:Singapore|Hong Kong|China|India|Australia|Malaysia|Indonesia|Vietnam|Japan|Korea)|actuarial analyst in|analyst in (?:Singapore|Hong Kong|China|India|Australia)|actuary analyst|in (?:Singapore|Hong Kong|China|India|Australia|Malaysia|Indonesia|Vietnam|Japan|Korea),|m\/f\/d\)|m\/f\/d\b|job opening|we are hiring|join our team|graduate programme|graduate program|early career|internship at|career opportunity|vacancy for|hiring for|recruitment drive|apply now|sales & distribution at|partnership in kuala lumpur)\b/i;
+  /\b(business solutions manager|solutions manager|relationship manager in|senior portfolio manager in|portfolio manager in|manager in (?:Singapore|Hong Kong|China|India|Australia|Malaysia|Indonesia|Vietnam|Japan|Korea|Tokyo)|actuarial analyst in|analyst in (?:Singapore|Hong Kong|China|India|Australia)|actuary analyst|in (?:Singapore|Hong Kong|China|India|Australia|Malaysia|Indonesia|Vietnam|Japan|Korea|Tokyo),|m\/f\/d\)|m\/f\/d\b|job opening|we are hiring|join our team|graduate programme|graduate program|early career|internship at|career opportunity|vacancy for|hiring for|recruitment drive|apply now|sales & distribution at|partnership in kuala lumpur| at manulife - manulife| at prudential - prudential)\b/i;
 
 const POLITICS_EXCLUDE =
-  /\b(senator|congressman|congresswoman|parliament|kmt\b|political party|election campaign|white house|democrat|republican|foreign minister|diplomatic talks|did not meet me)\b/i;
+  /\b(senator|congressman|congresswoman|parliament|kmt\b|political party|election campaign|white house|democrat|republican|foreign minister|diplomatic talks|did not meet me|ukraine peace talks|peace talks|brok(?:er|ering) (?:stalled )?peace|trump offers|trump dials|calls for trump|socceroo|monoculture claim)\b/i;
 
 const INSURANCE_KEYWORDS =
-  /\b(insurance|insurer|insurers|insuring|reinsurance|reinsurer|life insurance|general insurance|health insurance|underwrit|policy premium|insurtech|actuar|(?:insurance|policy|health|life)\s+claims?\b|\bclaims?\s+(?:ratio|settlement|paid|surge|rise|fall|data|handling|volume|costs)\b|bima|irdai|apra|hkma|tokio marine|aia\b|allianz|axa\b|aviva|manulife|prudential|metlife|ms&ad|dai-?ichi|sumitomo life|nippon life|fwd\b|chubb|zurich|swiss re|munich re|liberty mutual|broker(?:age)?|mga\b|captives?|techcom life|bao hiem|bảo hiểm)\b/i;
+  /\b(insurance|insurer|insurers|insuring|reinsurance|reinsurer|life insurance|life insurers?|general insurance|health insurance|underwrit|policy premium|insurtech|actuar|(?:insurance|policy|health|life)\s+claims?\b|\bclaims?\s+(?:ratio|settlement|paid|surge|rise|fall|data|handling|volume|costs)\b|bima|irdai|apra|hkma|tokio marine|aia\b|allianz|axa\b|aviva|manulife|prudential|metlife|ms&ad|dai-?ichi|sumitomo life|nippon life|fwd\b|chubb|zurich|swiss re|munich re|liberty mutual|insurance broker(?:age)?s?|reinsurance broker(?:age)?s?|mga\b|captives?|techcom life|bao hiem|bảo hiểm|higher-for-longer rates|organizational growth and transformation)\b/i;
 
 const NON_INSURANCE_EXCLUDE =
   /\b(military training|russia approved|sgx mainboard|esg reporting(?!.*insur)|vertex announces|casgevy|real estate(?!.*insur)|property developer|marketing claims|rejects claims|false claims|mortgage|home buying|robotics federation|oscar health|unum group|hello nation.*utah|clash in court over marketing)\b/i;
+
+const INSURER_REGIONS = {
+  "great eastern": ["china-hk", "sea"],
+  prudential: ["china-hk", "sea"],
+  metlife: ["japan-korea", "sea", "china-hk"],
+  manulife: ["sea", "china-hk", "japan-korea"],
+  aia: ["china-hk", "sea"],
+  fwd: ["sea"],
+  "tokio marine": ["japan-korea"],
+  "nippon life": ["japan-korea"],
+  "dai-ichi life": ["japan-korea"],
+  daiichi: ["japan-korea"],
+  "sumitomo life": ["japan-korea"],
+  qbe: ["anz"],
+  suncorp: ["anz"],
+  iag: ["anz"],
+};
 
 const INSURER_ENTITIES = [
   "great eastern",
@@ -92,7 +115,9 @@ const TAG_RULES = [
   },
   {
     tag: "Earnings",
-    patterns: [/\b(earnings|quarterly|q[1-4]|results|revenue|profit|premium|aum)\b/i],
+    patterns: [
+      /\b(earnings|quarterly|q[1-4]|results|revenue|profit|premium|aum|cashing in|higher-for-longer rates|rates are a gift)\b/i,
+    ],
   },
   { tag: "Press", patterns: [/./] },
 ];
@@ -170,18 +195,67 @@ async function fetchQueryCached(query) {
 
 function headlineText(title) {
   return String(title ?? "")
-    .replace(/\s*[-–|]\s*(?:reuters|bloomberg|insurance asia|nikkei|scmp|south china morning post|business times|aap).*$/i, "")
+    .replace(/\s*[-–|]\s*[\w.]+\.(?:com|au|co\.uk|asia|vn|sg)(?:\s*[-–|]\s*[\w.]+)?\s*$/i, "")
+    .replace(/\s*[-–|]\s*(?:reuters|bloomberg|insurance asia|nikkei|scmp|south china morning post|business times|aap|yahoo finance|wsj).*$/i, "")
     .trim();
+}
+
+function isLowQualityTitle(title) {
+  const headline = headlineText(title);
+  const words = headline.match(/\b[a-zA-Z]{3,}\b/g) ?? [];
+  if (words.length < 2) return true;
+  if (/(?:\d+%\s*){2,}/.test(headline) && words.length < 4) return true;
+  if (/^(?:net asset value|site map|meta_title)/i.test(headline)) return true;
+  return false;
+}
+
+function isGenericHubTitle(title) {
+  const headline = headlineText(title);
+  if (
+    /\b(the latest news,?\s*insight|commentary & analysis at|news - the latest|latest news,?\s*insight,?\s*commentary|executive perspectives - wsj$|meta_title)\b/i.test(
+      headline,
+    )
+  ) {
+    return true;
+  }
+  const parts = String(title ?? "")
+    .split(/\s*[-–|]\s*/)
+    .map((part) => part.trim().toLowerCase())
+    .filter(Boolean);
+  if (parts.length >= 3 && parts.at(-1) === parts.at(-2)) return true;
+  if (
+    /^[^.!?]{0,80} news$/i.test(headline) &&
+    !HUB_ACTION_VERBS.test(headline)
+  ) {
+    return true;
+  }
+  if (/\binsurance asia$/i.test(String(title)) && !HUB_ACTION_VERBS.test(headline)) return true;
+  if (/\b(medical insurance news|regulatory and development authority)\b/i.test(headline) && !HUB_ACTION_VERBS.test(headline)) {
+    return true;
+  }
+  return false;
+}
+
+function isJobPostingTitle(title) {
+  const headline = headlineText(title);
+  if (/\|\s*.+\s+at\s+(?:manulife|prudential|aia|allianz|axa|aviva)\b/i.test(title)) return true;
+  if (/[^\u0000-\u024F\u1E00-\u1EFF]{4,}/.test(title)) return true;
+  return /\b(?:senior )?(?:portfolio|relationship|business solutions) manager in\b/i.test(headline);
 }
 
 function passesContentFilter(item) {
   const headline = headlineText(item.title);
   const haystack = `${headline} ${item.title} ${item.link}`.toLowerCase();
+  if (isLowQualityTitle(item.title)) return false;
+  if (isGenericHubTitle(item.title)) return false;
+  if (isJobPostingTitle(item.title)) return false;
   if (isCareerOrJobUrl(item.link)) return false;
   if (CAREER_EXCLUDE.test(haystack)) return false;
   if (POLITICS_EXCLUDE.test(haystack)) return false;
   if (NON_INSURANCE_EXCLUDE.test(haystack)) return false;
+  if (MARKET_DATA_EXCLUDE.test(haystack)) return false;
   if (LOW_SIGNAL.test(haystack)) return false;
+  if (/aap(?:news)?\.(?:com\.)?au/i.test(`${item.title} ${item.link}`) && !INSURANCE_KEYWORDS.test(haystack)) return false;
   return true;
 }
 
@@ -189,17 +263,27 @@ function passesInsuranceFilter(item, domain = null) {
   if (!passesContentFilter(item)) return false;
   const headline = headlineText(item.title);
   const haystack = `${headline} ${item.link}`;
-  if (item.fromNewsSection && domain?.host?.includes("insurance")) return true;
-  if (item.fromNewsSection && /\/insurance\//.test(item.link ?? "")) return true;
+  if (item.fromNewsSection && /\/insurance\//.test(item.link ?? "") && INSURANCE_KEYWORDS.test(headline)) return true;
   if (INSURANCE_KEYWORDS.test(haystack)) return true;
   if (FIG_CONTEXT.test(haystack)) return true;
-  if (domain?.host?.includes("insurance") && /\/insurance\//.test(item.link ?? "")) return true;
+  if (domain?.host?.includes("insurance") && /\/insurance\//.test(item.link ?? "") && INSURANCE_KEYWORDS.test(headline)) {
+    return true;
+  }
   if (domain?.primaryRegion && domain.primaryRegion !== "global") {
-    if (/\b(life insurer|life insurance|techcom life|manulife|prudential|aia\b|fwd life|great eastern)\b/i.test(haystack)) {
-      return true;
-    }
+    if (INSURANCE_KEYWORDS.test(headline) || FIG_CONTEXT.test(headline)) return true;
   }
   return false;
+}
+
+function regionHintForHeadline(title) {
+  const headline = headlineText(title);
+  for (const region of REGIONS) {
+    if (region.market.test(headline)) return region.id;
+  }
+  const entity = extractInsurerEntity(title);
+  if (entity && INSURER_REGIONS[entity]?.[0]) return INSURER_REGIONS[entity][0];
+  if (/\blife insurers?\b/i.test(headline)) return "sea";
+  return null;
 }
 
 function passesRegionFilter(item, region) {
@@ -207,7 +291,14 @@ function passesRegionFilter(item, region) {
   const haystack = `${headline} ${item.link}`.toLowerCase();
   if (region.exclude?.test(haystack)) return false;
   if (region.market.test(headline)) return true;
-  if (item.domainHost && item.primaryRegion === region.id) {
+
+  const entities = extractInsurerEntities(item.title);
+  if (entities.some((entity) => INSURER_REGIONS[entity]?.includes(region.id))) return true;
+
+  const hinted = regionHintForHeadline(item.title);
+  if (hinted === region.id) return true;
+
+  if (item.domainHost && item.primaryRegion === region.id && item.primaryRegion !== "global") {
     return passesInsuranceFilter(item, {
       host: item.domainHost,
       primaryRegion: item.primaryRegion,
@@ -226,6 +317,10 @@ function scoreItem(item, domain, region) {
   const haystack = `${item.title} ${item.link}`;
   if (region.market.test(haystack)) rank -= 2;
   if (domain.primaryRegion === region.id) rank -= 1;
+  if (/\blife insurers?\b/i.test(item.title) && /\b(rates|cashing in|higher-for-longer)\b/i.test(item.title)) rank -= 4;
+  if (/\b(higher-for-longer rates|rates are a gift)\b/i.test(item.title)) rank -= 3;
+  if (domain.host === "deloitte.wsj.com") rank -= 4;
+  if (/\b(ceo|cfo|chief)\b/i.test(item.title) && /\b(manulife|prudential|aia\b|great eastern)\b/i.test(item.title)) rank -= 3;
   return {
     ...item,
     source: sourceLabel,
@@ -253,6 +348,13 @@ function extractInsurerEntity(title) {
   return null;
 }
 
+function extractInsurerEntities(title) {
+  const lower = cleanTitle(title);
+  return [...INSURER_ENTITIES]
+    .filter((entity) => lower.includes(entity))
+    .sort((a, b) => b.length - a.length);
+}
+
 function isSameStory(a, b) {
   const titleA = cleanTitle(a.title);
   const titleB = cleanTitle(b.title);
@@ -264,10 +366,7 @@ function isSameStory(a, b) {
   const shared = tokensA.filter((t) => setB.has(t)).length;
   const union = new Set([...tokensA, ...tokensB]).size;
   if (union > 0 && shared / union >= 0.45) return true;
-
-  const entityA = extractInsurerEntity(a.title);
-  const entityB = extractInsurerEntity(b.title);
-  return Boolean(entityA && entityB && entityA === entityB);
+  return false;
 }
 
 function pickTopN(items, n = BULLETS_PER_REGION, regionId = null) {
@@ -277,7 +376,7 @@ function pickTopN(items, n = BULLETS_PER_REGION, regionId = null) {
   });
   const unique = [];
   const hostCount = new Map();
-  const entitySeen = new Set();
+  const entitySeen = new Map();
 
   if (regionId) {
     const primaryBest = [
@@ -295,23 +394,41 @@ function pickTopN(items, n = BULLETS_PER_REGION, regionId = null) {
       if (unique.length >= primarySlots) break;
       if (unique.some((kept) => isSameStory(best, kept))) continue;
       const entity = extractInsurerEntity(best.title);
-      if (entity && entitySeen.has(entity)) continue;
+      if (entity && (entitySeen.get(entity) ?? 0) >= 2) continue;
+      if (entity && unique.some((kept) => extractInsurerEntity(kept.title) === entity && isSameStory(best, kept))) {
+        continue;
+      }
       unique.push(best);
-      if (entity) entitySeen.add(entity);
+      if (entity) entitySeen.set(entity, (entitySeen.get(entity) ?? 0) + 1);
       hostCount.set(host, 1);
     }
+  }
+
+  const flagship = sorted.find(
+    (item) =>
+      /\b(higher-for-longer|rates are a gift)\b/i.test(item.title) && /\blife insurers?\b/i.test(item.title),
+  );
+  if (flagship && !unique.some((kept) => isSameStory(flagship, kept))) {
+    unique.push(flagship);
+    const entity = extractInsurerEntity(flagship.title);
+    if (entity) entitySeen.set(entity, (entitySeen.get(entity) ?? 0) + 1);
+    const host = flagship.domainHost ?? "";
+    if (host) hostCount.set(host, (hostCount.get(host) ?? 0) + 1);
   }
 
   for (const item of sorted) {
     if (unique.length >= n) break;
     if (unique.some((kept) => isSameStory(item, kept))) continue;
     const entity = extractInsurerEntity(item.title);
-    if (entity && entitySeen.has(entity)) continue;
+    if (entity && (entitySeen.get(entity) ?? 0) >= 2) continue;
+    if (entity && unique.some((kept) => extractInsurerEntity(kept.title) === entity && isSameStory(item, kept))) {
+      continue;
+    }
     const host = item.domainHost ?? "";
     if (host && (hostCount.get(host) ?? 0) >= 2) continue;
     if (unique.includes(item)) continue;
     unique.push(item);
-    if (entity) entitySeen.add(entity);
+    if (entity) entitySeen.set(entity, (entitySeen.get(entity) ?? 0) + 1);
     if (host) hostCount.set(host, (hostCount.get(host) ?? 0) + 1);
   }
 
@@ -378,10 +495,23 @@ async function collectFromDomainGoogle(domain, region, cutoff) {
     `site:${domain.host} insurance when:2d`,
     `site:${domain.host} (life OR insurance OR reinsurance) when:3d`,
   ];
+
+  if (domain.host === "finance.yahoo.com" || domain.host === "sg.finance.yahoo.com") {
+    queries.unshift(
+      `site:${domain.host} ("life insurers" OR "life insurance" OR "higher-for-longer" OR manulife OR prudential OR metlife) when:3d`,
+    );
+  }
+  if (domain.host === "deloitte.wsj.com") {
+    queries.unshift(
+      `site:${domain.host} (manulife OR prudential OR aia OR insurance OR CEO OR CFO OR "executive perspectives") when:7d`,
+    );
+  }
+
   const all = [];
   for (const query of queries) {
-    const useExtended = query.includes("when:3d");
-    const effectiveCutoff = useExtended ? Date.now() - 3 * 24 * 60 * 60 * 1000 : cutoff;
+    const windowMatch = query.match(/when:(\d+)d/);
+    const queryDays = windowMatch ? Number(windowMatch[1]) : 2;
+    const effectiveCutoff = Date.now() - queryDays * 24 * 60 * 60 * 1000;
     try {
       for (const item of await fetchQueryCached(query)) {
         if (!item.pubDate || item.pubDate.getTime() < effectiveCutoff) continue;
@@ -397,6 +527,8 @@ async function collectFromDomainGoogle(domain, region, cutoff) {
   return all;
 }
 
+const SUPPLEMENTAL_GOOGLE_HOSTS = new Set(["finance.yahoo.com", "sg.finance.yahoo.com", "deloitte.wsj.com"]);
+
 async function collectFromDomain(domain, region, cutoff) {
   let all = [];
   const feeds = domain.rssFeeds?.length ? domain.rssFeeds : feedsForHost(domain.host);
@@ -406,7 +538,7 @@ async function collectFromDomain(domain, region, cutoff) {
     }
   }
   all = all.concat(await collectFromDomainSections(domain, region, cutoff));
-  if (pickTopN(all, 1).length === 0) {
+  if (SUPPLEMENTAL_GOOGLE_HOSTS.has(domain.host) || pickTopN(all, 1).length === 0) {
     all = all.concat(await collectFromDomainGoogle(domain, region, cutoff));
   }
   return all;

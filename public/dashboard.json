@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-06T10:08:20.256Z",
+  "generatedAt": "2026-07-06T15:59:36.988Z",
   "title": "Asia Insurance Daily",
   "region": "Asia-Pacific",
   "timezone": "Asia/Singapore",
   "windowHours": 48,
   "bulletsPerRegion": 5,
-  "sourcesExtractedAt": "2026-07-06T10:06:29.329Z",
+  "sourcesExtractedAt": "2026-07-06T15:57:50.398Z",
   "totalSourceDomains": 48,
   "rssEnabledDomains": 11,
   "sourceConfig": "data/domains.json",
@@ -218,6 +218,22 @@
       ]
     },
     {
+      "host": "deloitte.wsj.com",
+      "label": "Deloitte WSJ",
+      "primaryRegion": "global",
+      "primaryRegionLabel": "Global",
+      "hasRss": false,
+      "newsSections": [
+        "/executive-perspectives/",
+        "/cfo/",
+        "/ceo/",
+        "/insights/",
+        "/news/",
+        "/news-releases/",
+        "/media-releases/"
+      ]
+    },
+    {
       "host": "eastspring.com",
       "label": "Eastspring",
       "primaryRegion": "sea",
@@ -254,19 +270,6 @@
       "newsSections": [
         "/insights/",
         "/news/",
-        "/news-releases/",
-        "/media-releases/"
-      ]
-    },
-    {
-      "host": "gurufocus.com",
-      "label": "GuruFocus",
-      "primaryRegion": "global",
-      "primaryRegionLabel": "Global",
-      "hasRss": false,
-      "newsSections": [
-        "/news/",
-        "/insights/",
         "/news-releases/",
         "/media-releases/"
       ]
@@ -689,18 +692,18 @@
         },
         {
           "tag": "Earnings",
-          "headline": "China claims pressure eases further in April as premium growth moderates - (Re)in Asia",
-          "source": "Reinasia",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbEU2RlhwQURQRkZTZ2JUei1vZHY2QjdOVThQdlRvRnkxdDRyQnVzcS1OczBhQmFudmVVMDRRYlFrTEJzLWNWNE10cnc4QlNhamp0bGdkcDZwNl9UUlRWTFhVd3BoaWpOYUczQ0lDX2s0V1hwM0RERHRnR0xmbUw4NkZUZWRKeFJucWdIbndSdHhnMW5GZXBZMk5n?oc=5",
-          "published": "2026-07-04T12:04:27.000Z",
-          "via": "sections"
+          "headline": "Higher-for-Longer Rates Are a Gift for Life Insurers. MetLife and Prudential Are Cashing In. - Yahoo Finance",
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVmV5RkQ4VXlxazFiMENpalcwT1BFb2xXeGJieGswd0dnOGxzaGJMQTJ2UGU3X01TUU9yZW44blFtYTFsMnpNeUh4dUY4QW1HZHdSelk0WnNZZ2ZrLWtFT0NudDd4Z0gxendJR2psWG1MSzFNRXI4WmVhX1ViMWE5c0pLR0M2dk1UYXluQzZwb0IwU1lpWkFEZGxB?oc=5",
+          "published": "2026-07-04T18:35:00.000Z",
+          "via": "google-news"
         },
         {
-          "tag": "Press",
-          "headline": "AIA Healthiest Schools Competition 2025/26: Hong Kong Winners Announced #AIA - Media OutReach Newswire",
-          "source": "Media OutReach Newswire",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQldlcDN5bmF5SVh2elNRRlNTUWtQYzk3eEVjdlRXTU5XcTdTRk5LZEJRY1h5ZDV4bzhoZGdkR0tQU0llVnQ2TjRQUGd1SXFuZEpCMm92ZXVmWmVJQ3RRaHNQV1RKc2hUYVQzOGRud2ZmZU1VMTVzT0FNdHpDZGs4MFJVcFRMU1ZJMXJiVGRxMEtacjNZWHpVNG1McU5EbXBLMTZyRVZvWFN1SUZPQXlheEFvbWVEUE8zSG4wYkpmRFhhQ2tjNC1sNDNNXzVVNWJM?oc=5",
-          "published": "2026-07-06T06:27:49.000Z",
+          "tag": "Leadership",
+          "headline": "How Manulife’s CFO Supports Organizational Growth and Transformation - WSJ",
+          "source": "Deloitte WSJ",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSU5zcUtwQXk0d0ZZVlFYTnR1VlpHWlVxc2NvWFctc2xTNlBYTHpHNmtlQTU4ODJmcF8zQlFFNG11MVlzaVp6S0FVbWNuczZUckR6OC1pZnFtSE5JbGdBNUs5TTcybU9LZi0zSXFNcU90ZlJoczlNYjFMamlDdDhVcHpHb1otRVVjellRazVhZHBPekhqU1JGVENxSVllcUpsTGlmTlRaT1I?oc=5",
+          "published": "2026-07-02T16:00:00.000Z",
           "via": "google-news"
         },
         {
@@ -713,10 +716,10 @@
         },
         {
           "tag": "Press",
-          "headline": "Prudential plc [LSE: PRU] Trades Below 2026 Buyback Average Ahead of Hong Kong Filings - Kalkine Media",
-          "source": "Kalkine Media",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQk0xSnlfWXpwelVmclhKSFRSUF96MzduSlBBOEZOVW5iVG0zUTU2eVYwSFNqazRDVmtVUDl2STg5OEdPcXY0WE43NkNTMkxLdHQ1U3hMRnZOUDcyOGd3X05faV9yb3pacDBtdTNXdFpOOUtmcVhwV3ZZbGNpa05LZzFNV3JsVHF1bzFkaDF1emhOVmthVGZ6WWROWUhuLTNMS0I2alZCWVNLOGlHQTlTM2lYSEVKV05hb0c0Zy1PUkhoRnZPVUx3?oc=5",
-          "published": "2026-07-05T05:00:00.000Z",
+          "headline": "F00000W8OC.TO Purchase info | investment information for Manulife Monthly Income RP E stock - Yahoo Finance UK",
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3aUdCVHVNZzZOdXVDeUJxa3V3RWdyeWdPeVVYMnczNklxMzc4X0tiUFRKeE5ReTBNb0lOR0VBRzdsZGJoTXNveG1xU2lrSkwxS1NIX1dKU3JiZmR0U0RndnpPZFh1NHRwNnlMM3c4bU0?oc=5",
+          "published": "2026-07-06T07:05:42.000Z",
           "via": "google-news"
         }
       ]
@@ -730,10 +733,18 @@
       "bullets": [
         {
           "tag": "Product",
-          "headline": "Gia Lai aims for universal health insurance coverage by 2030. - Vietnam.vn",
+          "headline": "Govt to launch base-medical insurance plan by end-July, monthly premiums start at RM60 - The Edge Malaysia",
+          "source": "The Edge Malaysia",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1NZDM4QS1oenFWU0swYlBkbnlUMzhSQWoyM0xpbTJPaUF6WlVZUGRxOVdRZHNRTmlzcEVXalMtUkhTME5CSlNiOUd2T0plSFB6?oc=5",
+          "published": "2026-07-06T12:31:38.000Z",
+          "via": "sections"
+        },
+        {
+          "tag": "Product",
+          "headline": "Receiving 50% health insurance coverage for outpatient visits outside of designated facilities from July 1st: Will the number of people v…",
           "source": "Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTjdCNkpwOWpWS2xwY2J1UWZLMHlja1B0Z0lRa3ljNzFUTElPRzZwMDhQTEpubnFVcjMzUGROSUxoYURFeVROQmNlal9KX285RDlGYWFlWDY3QVp3ZFRBbTJLeDdtNXFLaVoxTUdvbE1yOTBJU2ZHZUNMU00taHI2YXVVeTA?oc=5",
-          "published": "2026-07-05T08:39:48.000Z",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONXM3TDYwNkdhZGE1SEJSazBkLURzNk5CZ2dINXZmOUJRcExWRGtKdUo5NG9jcDNQUVpoT2JvRmhMcmtwSU1SbGx4MzJwclZGdEYxRDcyQzVzZHpyOGFYT1RvQzhZYVotakdiRU1Fcjc0cUIySDJpQjdXbjVNd3FqLVp0dmxIdi1jX3QzNndXREhOT3FBMllMNDlBNV9oZUlCZXJ6emFiTFM0ZWVsamNZQ0dOeFE?oc=5",
+          "published": "2026-07-06T10:32:38.000Z",
           "via": "sections"
         },
         {
@@ -745,28 +756,20 @@
           "via": "sections"
         },
         {
-          "tag": "Press",
-          "headline": "Zurich Taps AI to Close Asia’s SME Insurance Gap - finews.asia",
-          "source": "Finews Asia",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdGpvNlBVU1h2Z0R4dmZkWWJzRGhvT3RYRDBOR0pyV0E5VjRZSjZYVHVpNndTb2lZN1dMSmZRQVVzdlNUOXlab2tMamVTaWVpRGdNVEhaeGptMF9IZ3BuS0dtSk0tRUkzTGZuSDVDUHdNUFZjeVJDUXBNRVZXckJYa2cyaEJFb0E4NHlXak5URQ?oc=5",
-          "published": "2026-07-06T04:39:00.000Z",
-          "via": "sections"
+          "tag": "Earnings",
+          "headline": "Higher-for-Longer Rates Are a Gift for Life Insurers. MetLife and Prudential Are Cashing In. - Yahoo Finance",
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVmV5RkQ4VXlxazFiMENpalcwT1BFb2xXeGJieGswd0dnOGxzaGJMQTJ2UGU3X01TUU9yZW44blFtYTFsMnpNeUh4dUY4QW1HZHdSelk0WnNZZ2ZrLWtFT0NudDd4Z0gxendJR2psWG1MSzFNRXI4WmVhX1ViMWE5c0pLR0M2dk1UYXluQzZwb0IwU1lpWkFEZGxB?oc=5",
+          "published": "2026-07-04T18:35:00.000Z",
+          "via": "google-news"
         },
         {
-          "tag": "Product",
-          "headline": "Adjusting pensions and social insurance benefits: Strengthening confidence in the policy. - Vietnam.vn",
-          "source": "Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY1B5bW5yMnVPRjhRMDdiZUFFQzVLMzlHcmwxaG1iMDVhS0lobi1uREtNZGdIck0wXzRvUnBkRFBCaVVTcU03cXZKYUVBQzRmZVNXbkpwcThKcloxWXB5Qnh0MEpWOTJoV3N0c2kxWWN0dWstNGFjZVJlWG9paHViSnV5SWJINGRTTlNscTVBNWNGajhNMkhoMnRoM2ZabXNuVXdVNg?oc=5",
-          "published": "2026-07-05T03:25:53.000Z",
-          "via": "sections"
-        },
-        {
-          "tag": "Press",
-          "headline": "Medical Insurance News - The Latest News, Insight, Commentary & Analysis at Insurance Asia - Insurance Asia",
-          "source": "Insurance Asia",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmRE5fR0lBQmFkRHBaVTA0cnFOa3J4Y3EtYWhLT0lJbkFKWkxqMzJBU2JCcTVIOGFPZE1COGFNanFhMVBXLTZCeTdtWlJTMERVNTFtOWtRTlhtdTRucDBMLXdKT3gzdncy?oc=5",
-          "published": "2026-07-06T04:18:36.000Z",
-          "via": "sections"
+          "tag": "Leadership",
+          "headline": "How Manulife’s CFO Supports Organizational Growth and Transformation - WSJ",
+          "source": "Deloitte WSJ",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSU5zcUtwQXk0d0ZZVlFYTnR1VlpHWlVxc2NvWFctc2xTNlBYTHpHNmtlQTU4ODJmcF8zQlFFNG11MVlzaVp6S0FVbWNuczZUckR6OC1pZnFtSE5JbGdBNUs5TTcybU9LZi0zSXFNcU90ZlJoczlNYjFMamlDdDhVcHpHb1otRVVjellRazVhZHBPekhqU1JGVENxSVllcUpsTGlmTlRaT1I?oc=5",
+          "published": "2026-07-02T16:00:00.000Z",
+          "via": "google-news"
         }
       ]
     },
@@ -786,11 +789,27 @@
           "via": "google-news"
         },
         {
-          "tag": "Press",
-          "headline": "Athene appoints Larik Hall as SVP and Head of Japan - Reinsurance News",
-          "source": "Reinsurance News",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY2cwb3VPdW5lUHZnbmw4LWh3Z2xoWmI1NnJ4U1BRaXVBZFFrbkdDMi1XUXpLVzZRSEUyMUVtOGVMUEpFaEwxUnhSeXFqQXI2RHB2ZVZPcHZGY3BCZ0JieGE2RzlQYUVtakVKWUFfb2luZXdWaGM3V3IxTzRiaHBXVUZQTG1UYngt?oc=5",
-          "published": "2026-07-06T09:02:49.000Z",
+          "tag": "Earnings",
+          "headline": "Higher-for-Longer Rates Are a Gift for Life Insurers. MetLife and Prudential Are Cashing In. - Yahoo Finance",
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVmV5RkQ4VXlxazFiMENpalcwT1BFb2xXeGJieGswd0dnOGxzaGJMQTJ2UGU3X01TUU9yZW44blFtYTFsMnpNeUh4dUY4QW1HZHdSelk0WnNZZ2ZrLWtFT0NudDd4Z0gxendJR2psWG1MSzFNRXI4WmVhX1ViMWE5c0pLR0M2dk1UYXluQzZwb0IwU1lpWkFEZGxB?oc=5",
+          "published": "2026-07-04T18:35:00.000Z",
+          "via": "google-news"
+        },
+        {
+          "tag": "Leadership",
+          "headline": "How Manulife’s CFO Supports Organizational Growth and Transformation - WSJ",
+          "source": "Deloitte WSJ",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSU5zcUtwQXk0d0ZZVlFYTnR1VlpHWlVxc2NvWFctc2xTNlBYTHpHNmtlQTU4ODJmcF8zQlFFNG11MVlzaVp6S0FVbWNuczZUckR6OC1pZnFtSE5JbGdBNUs5TTcybU9LZi0zSXFNcU90ZlJoczlNYjFMamlDdDhVcHpHb1otRVVjellRazVhZHBPekhqU1JGVENxSVllcUpsTGlmTlRaT1I?oc=5",
+          "published": "2026-07-02T16:00:00.000Z",
+          "via": "google-news"
+        },
+        {
+          "tag": "Leadership",
+          "headline": "Former Howden Re Japan chief joins Agam Capital - Insurance Business",
+          "source": "Insurance Business",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUzJOSDE2ZGszZkx3cHk5aUliSVFQME0tR3daZ19Da2o2aG1RTDI5Y25ERnZ3QUdKNGtkNm1QeEI4X252ZGdxMmVqX2VPdUJHemZTX0cyU0c4em41Qmh5M1RaaHN5XzdReDFIZzVxTHYyWmp4TXRlSG1rWkRIal81dENqM2NSWVFMMXFVemh1YjU1TVlxVUFnVVB0dzRLRnBCX0hEeVNyOEMweTJvUlFqeUM4ejlVVElET2pNd1hhLWYzd3Q3TkE?oc=5",
+          "published": "2026-07-06T12:47:59.000Z",
           "via": "sections"
         },
         {
@@ -800,22 +819,6 @@
           "url": "https://reinasia.com/korea-insurance-groups-to-handle-some-non-dispute-complaints/",
           "published": "2026-07-06T03:07:00.000Z",
           "via": "rss"
-        },
-        {
-          "tag": "Press",
-          "headline": "IndusInd Nippon Life High Growth 2 (0P0000NPKC.BO) interactive stock chart - Yahoo Finance Singapore",
-          "source": "Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE15XzFyVnNnejc4QjV2TXhlMUtvMEhjdC1ldXJKX1JIVDIxcm05QU9JbFd5ZjdQRVhkNGZfZ1Q0R01PclRVRWJBNFVhdjhPLTVsWmVFVEx2c0tLendCbG1ndThrQmV2Zw?oc=5",
-          "published": "2026-07-04T04:23:21.000Z",
-          "via": "google-news"
-        },
-        {
-          "tag": "Press",
-          "headline": "Senior Portfolio Manager in Tokyo, Japan | ការគ្រប់គ្រងគម្រោង និងយុទ្ធសាស្ត្រ at Manulife - Manulife",
-          "source": "Manulife",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ELW0xaF9tS2lrR1czRy1wT0dsTVAtU3FKMlEzTzJES2RDRXhPQzczbGRJTkJqcGhLT2FtaktUS2l6MUZtZlBaeV9QelItakFTOGg1TXdXT0t3ZF9Ib2NKWnJFOHk5djRuT1EydGNjeldWaUhJcnJ5RF8zSUJTcms?oc=5",
-          "published": "2026-07-04T00:46:50.000Z",
-          "via": "google-news"
         }
       ]
     },
@@ -828,18 +831,26 @@
       "bullets": [
         {
           "tag": "Press",
-          "headline": "'Bullshit': Socceroo slams Hanson's monoculture claim - aapnews.aap.com.au",
-          "source": "AAP",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbFdrdXk0dkxpVWlDVFpQLU5xQ0dOLXpZMUI0OTRsZkcybUtKaG1wd3J3d2Jmd2FIcWZIRjZjeFZQR2F6QWZmMHFpVDJsWTRKbm1vVzA4UFdnSkR2M2V1ckc4QVdjeWI2eEZXeFFMMW1xQU04eWZKbW4yZTI2SUwtSkFqa01yTERpV3c?oc=5",
-          "published": "2026-07-06T06:56:00.000Z",
+          "headline": "Suncorp grows its cat reinsurance tower to $6.4B - BusinessInsurance.com",
+          "source": "Business Insurance",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ0dDTnpOWmVtNnhDdnE5bURTSlA1ZDFjVm11aU53VkV1MW5Xd3M3WEJvcVlwMzJzT0hoNEZ3TUItelJ3ZTF1NWRiSWMxU21Za28wMXFMWDBwZ25ZdzUtWjdxbWNwR09xeUJfM1YwTEhUeTdxU0dFd1BXYTJJb2w3T0tpRWV2X1M2OHc?oc=5",
+          "published": "2026-07-06T14:26:26.000Z",
           "via": "sections"
         },
         {
           "tag": "Press",
-          "headline": "Trump offers to help broker stalled Ukraine peace talks - aapnews.aap.com.au",
-          "source": "AAP",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVmlkdVQ0QWpacnNRX1kwS2xpVlh0NzBtcDdaTUo0b29uUHQ1WnlPUnEtRDhUMm9wbkJxZDZQb0RsdmljcG5ROTZWZ0FGekxpa25kVU1HSzlsUUJvNUJxZE1wYVBaM2NPcTBQXzNPbTI0OEY0ZW5jdlhjOHkzOHFEdFBBeDhsdTBBWWdEUGJ2SQ?oc=5",
-          "published": "2026-07-05T00:39:45.000Z",
+          "headline": "Lactalis fined in Australia for “misleading” fresh milk claims - Yahoo Finance",
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNjdPTTNYcWJrOHpCaGtQeVdKMzZ4aVpoRC1RT0FBbzhETlpTTTlWMUJVWXZHNkpwT0ljQWltRENQcDNhVlg2THVrMjlPU2g5SGZNRm94UkRZRHVJUzVQY0tKaEFVUTViNjg0MEYwdEVmVjhSWkRDeGdubFFRQ2ZxVW9DZlpqci0wTHBCcUtDdElZd0RnZlZVZFVJdFRMVS1XN2JpVA?oc=5",
+          "published": "2026-07-06T14:02:05.000Z",
+          "via": "google-news"
+        },
+        {
+          "tag": "Press",
+          "headline": "Suncorp secures FY27 reinsurance as natural hazard costs hit AU$2bn - Insurance Business",
+          "source": "Insurance Business",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOV1phc29rbjhudmFVS0E5QTA5by1tMzFxUTJjTmpUdi1DcThuWGM2QTRkR1hxNmRfTHdEcWJ6dDBsRGtnUVltRDVjVXVhR0w3ZlByT2NDcWZIQlZDaEM1emJtWmJRbzR0eDB2OXNoTlljTm9STlY3YlFXMWo2cnhzTTFlT0ViQlIyeWE1MEVYY0Nvb0M4ck5FTWM2eHloT0JkNGVPNFBpX3FjZ0ZrYk1VaTVmV3pWTEdyT005OF96UF9RQW9vV012QjlYeV83S0p0T0VqQUtvb1EzU3JGV3NF?oc=5",
+          "published": "2026-07-06T08:36:56.000Z",
           "via": "sections"
         },
         {
@@ -857,14 +868,6 @@
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTVFqTy1oa1pscmdRdkVSYnJ3dVFTdFQtTURwWl9haTUtU3huTUhNYjdaZS1MUFhMVktKMl9yc2RaWnBlZEtqWVhxRXFCVXZkR0pLc3ZoVTVIRVQtTVFhU2VrMndDUEFJM05iNEVnUEFUU3dmSS1GTVpfQm1Wdk1aZHBhQWFDdmxmenB1ZDRkTm5QMHRKVllmbQ?oc=5",
           "published": "2026-07-06T00:52:18.000Z",
           "via": "sections"
-        },
-        {
-          "tag": "Press",
-          "headline": "New Zealand: New Zealanders demand stronger action on climate hazards - Asia Insurance Review",
-          "source": "Asia Insurance Review",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZXlnQnhGa3czOVNJYWhTTmhXaDBoREtKSXpzT0hqeXpaNVN6d01zdFE3U3JvTW1VUGJLd3BQU0xKdmxMVkY5Y1FBdlNkVXAxby1jSl9VdWttSE0yT3Qta2ZpcGtDcWtDcFItb29tT2xmaWZNY0JkaVotNWxOcEpYRHdlQmpkazhLZHE1V2ZhUTQ3YnBlam9ZbjJkQ0sxMXkwdk56NkdSUTE5Tm9FYjcwRzA5bXlETDdiM0MxeXo5a2hRcVZkTTQwWTktblZaRjV0d2p3RkFwNW81OUNjREctaVdOb2R5b0U?oc=5",
-          "published": "2026-07-06T00:00:29.000Z",
-          "via": "google-news"
         }
       ]
     }

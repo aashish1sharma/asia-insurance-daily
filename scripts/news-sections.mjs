@@ -11,6 +11,7 @@ export const HOST_SECTION_PATHS = {
   "news.prudential.com": ["/latest-news/"],
   "wtwco.com": ["/insights/"],
   "deloitte.com": ["/insights/"],
+  "deloitte.wsj.com": ["/executive-perspectives/", "/cfo/", "/ceo/"],
   "bcg.com": ["/publications/"],
   "asia.nikkei.com": ["/business/insurance/"],
   "scmp.com": ["/business/"],
@@ -101,5 +102,17 @@ export function buildSectionQueries(domain, queryDays = SECTION_QUERY_DAYS) {
     queries.add(`site:${host} (insurance OR techcom OR "bao hiem" OR bancassurance) ${when} ${SECTION_QUERY_EXCLUDE}`);
   }
 
-  return [...queries].slice(0, 3);
+  if (host === "finance.yahoo.com" || host === "sg.finance.yahoo.com") {
+    queries.add(
+      `site:${host} ("life insurers" OR "life insurance" OR "higher-for-longer" OR manulife OR prudential OR metlife) ${when} ${SECTION_QUERY_EXCLUDE}`,
+    );
+  }
+
+  if (host === "deloitte.wsj.com") {
+    queries.add(
+      `site:${host} (manulife OR prudential OR aia OR insurance OR CEO OR CFO OR "executive perspectives") when:7d ${SECTION_QUERY_EXCLUDE}`,
+    );
+  }
+
+  return [...queries].slice(0, 4);
 }
