@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-06T15:59:36.988Z",
+  "generatedAt": "2026-07-07T03:46:49.825Z",
   "title": "Asia Insurance Daily",
   "region": "Asia-Pacific",
   "timezone": "Asia/Singapore",
   "windowHours": 48,
   "bulletsPerRegion": 5,
-  "sourcesExtractedAt": "2026-07-06T15:57:50.398Z",
+  "sourcesExtractedAt": "2026-07-07T03:45:09.421Z",
   "totalSourceDomains": 48,
   "rssEnabledDomains": 11,
   "sourceConfig": "data/domains.json",
@@ -708,19 +708,19 @@
         },
         {
           "tag": "Press",
-          "headline": "China: Insurance cover for workers in new forms of employment will now be available across the country - Asia Insurance Review",
-          "source": "Asia Insurance Review",
-          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOZ2ZOeG94U01LN1VBMndLME5jeVpWUG9mWl9YVXdrUXRLLXpDWlZoNW9vajBLX1gxVFhPWUEwdHFxYkNNSmh1VEVRRWpyVkZfN29sWFA3RUgyblJaX19Cdi1SeXVCQl8yNnZHWXVGd0FEV204SkRhUWxObWFoMnJaNmlUOVlvZXU4SjhkaUE5MnBCQVlWbl9wMndGNi1vTnZlamxYNUlXSnp3ZVVmQ2lISm5CMkpTQlJBemFfVTloQnJTUDRqQ2tMOXFJNjM0ZFV2MVdYTl81Y08yQVduNGJ3WXhJOTlWcG91NmVFeUx5Rjk1Q1g1WFpvREQ4SXBDTGF1TWpOaTBFNWNhaV94T0FaTzZwbGVEdw?oc=5",
-          "published": "2026-07-06T00:00:32.000Z",
-          "via": "google-news"
+          "headline": "Nato can’t be ‘naive’ about China as it ramps up military might, Rutte claims - South China Morning Post",
+          "source": "Scmp",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVXlKaUNGcm1QcGIxX0l2Q3diWkZqNHY1akxZc3FIbzBETEdvbV94STFzdnJJTzNudXM2MG0zQXRFX2pzYnNOc1NmWDg3OWVmS254ZURwWmdHaHI2UjBRalliWkxnNUlIYmxYY2FOaTJJVGZYS1JmWTRodkx5bEpnTXZsTzFxakt2bHVWQm5oTTBZbTkzVUY4bkIwUFhtVjE0djQ0cHNDR3RSR1ZHREphamFwWXY3ZE9VSklkdjhTLUdNMjDSAcMBQVVfeXFMT1V5SmlDRnJtUHBiMV9JdkN3YlpGajR2NWpMWXNxSG8wRExHb21feEkxc3ZySU8zbnVzNjBtM0F0RV9qc2JzTnNTZlg4NzllZktueGVEcFpnR2hyNlIwUWpZYlpMZzVJSGJsWGNhTmkySVRmWEtSZlk0aHZMeWxKZ012bE8xcWpLdmx1VkJuaE0wWW05M1VGOG5CMFBYbVYxNHY0NHBzQ0d0UkdWR0RKYWphcFl2N2RPVUpJZHY4Uy1HTTIw?oc=5",
+          "published": "2026-07-06T18:06:52.000Z",
+          "via": "sections"
         },
         {
           "tag": "Press",
-          "headline": "F00000W8OC.TO Purchase info | investment information for Manulife Monthly Income RP E stock - Yahoo Finance UK",
-          "source": "Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3aUdCVHVNZzZOdXVDeUJxa3V3RWdyeWdPeVVYMnczNklxMzc4X0tiUFRKeE5ReTBNb0lOR0VBRzdsZGJoTXNveG1xU2lrSkwxS1NIX1dKU3JiZmR0U0RndnpPZFh1NHRwNnlMM3c4bU0?oc=5",
-          "published": "2026-07-06T07:05:42.000Z",
-          "via": "google-news"
+          "headline": "China extends gig worker injury scheme nationwide - Insurance Business",
+          "source": "Insurance Business",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLVd2cldLakMtTGhESXVzb3d5aTg3MnJteUtYUnJVSEU3MzhBcm43ZEl5Z21nUExvSFU0Zk5GZWk0dDZ4VFRkWjcyVG5hcFhLekpKT1hvRXowTEFKT3UwNEo1aS14MGpOZkFiWkROam1lYjFGdk9jcFBnYm51NmJrT05COGZCYmhVaTJOdDVGWW9vdkpKWHdKUkRxX3NqVEQ5UldpVUxaUmZHOE1qQ2VxRl9OcXVWbkdJNENRLU1rTQ?oc=5",
+          "published": "2026-07-06T17:15:50.000Z",
+          "via": "sections"
         }
       ]
     },
@@ -733,18 +733,34 @@
       "bullets": [
         {
           "tag": "Product",
-          "headline": "Govt to launch base-medical insurance plan by end-July, monthly premiums start at RM60 - The Edge Malaysia",
-          "source": "The Edge Malaysia",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1NZDM4QS1oenFWU0swYlBkbnlUMzhSQWoyM0xpbTJPaUF6WlVZUGRxOVdRZHNRTmlzcEVXalMtUkhTME5CSlNiOUd2T0plSFB6?oc=5",
-          "published": "2026-07-06T12:31:38.000Z",
+          "headline": "Proposals suggest expanding health insurance coverage to include PET/CT scans and tests for certain types of cancer. - Vietnam.vn",
+          "source": "Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYmQ1blMxTmtacHNBcDhsc2wxOExpcVBNemE5R1ZIdVlWdWNaSGpVcXQ4aEJfYVpmT3NkMTNobkVkQklBVFZSSEdOck5JVTY0U2tUWm9pT1pBSkpoOUJRTDZpcjNVQTh0NkJ5ZjlFcjVTbS1XX2x1WFlZeWQyS0VjZm9oSzN2eXFuVTYyNXBfc2RuT3pwdkpXRTRLSzJiUzEzTktoTm5pb0ZhZw?oc=5",
+          "published": "2026-07-07T03:05:48.000Z",
           "via": "sections"
         },
         {
           "tag": "Product",
-          "headline": "Receiving 50% health insurance coverage for outpatient visits outside of designated facilities from July 1st: Will the number of people v…",
+          "headline": "Allianz Malaysia launches 3-year home insurance plan - Insurance Asia",
+          "source": "Insurance Asia",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY2kwckJzS2VFSWxwMUNNX0ctLWRyU3dhYS1qbGg5MjJ0ZWRSeHVTQ0FtTnpkMVFaajJ3QXJkbTFzTDZDT3lHWmw3b3lMajRnZjk2UUgxQ2ZYcDNrNlBpaXVmdWgwTkJlZ3ZvTXNzc3p4ZEhxQ2JxQTJEUUNJVm1yTWRYLXVmR01mNU0xZmx4cnhSY3p0S1hKVg?oc=5",
+          "published": "2026-07-06T21:15:00.000Z",
+          "via": "sections"
+        },
+        {
+          "tag": "Press",
+          "headline": "Singapore, Zurich top costliest cities for luxury spending — survey - The Edge Singapore",
+          "source": "The Edge Singapore",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPakEwVEVZV1htcUFaTFBjOVdydjZqYzhJZjltQk9NYURnUnFpQm4xbjl2TXhEYVl6bTZRU0stWjY2a05QTlJjelZCUjk0aHBYMEEwRDU1aERuTFFtQXFQWFVUYVc1Y0RFMERITzF2cTJjSTF0Zk54Tkl1NkhoLURNSEszUjhqbUFuU1hDX0M4ZmxBTHVLM0tKOWpHZGQxdzlDaFZKN1YtcWpQQdIBrwFBVV95cUxOdW9WOUNneVozWkx3a3VLNXYyaU1pcUtJem5aOHlEWjkyTmJoNmU0VVU5QkZDOHQxQVYtNWJ3aXNBU1h2QVdPbHdIaWlQSzNUSnpkOUlBR0lSWGdrQkFwMGFPX2RzR2hPa2ZzTmxHQ25ZVVVyVVVXNVExNjY4dGtlUXNuMGlONW9Mbk5ZbFZaa0xrbHJBZE55VFVRejRvcWlIcVdCQVRYTFY1Skl5QVlJ?oc=5",
+          "published": "2026-07-07T01:54:28.000Z",
+          "via": "sections"
+        },
+        {
+          "tag": "Product",
+          "headline": "The new health insurance policy makes it more convenient for people to access medical examinations and treatment. - Vietnam.vn",
           "source": "Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONXM3TDYwNkdhZGE1SEJSazBkLURzNk5CZ2dINXZmOUJRcExWRGtKdUo5NG9jcDNQUVpoT2JvRmhMcmtwSU1SbGx4MzJwclZGdEYxRDcyQzVzZHpyOGFYT1RvQzhZYVotakdiRU1Fcjc0cUIySDJpQjdXbjVNd3FqLVp0dmxIdi1jX3QzNndXREhOT3FBMllMNDlBNV9oZUlCZXJ6emFiTFM0ZWVsamNZQ0dOeFE?oc=5",
-          "published": "2026-07-06T10:32:38.000Z",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSDg1blVYZEVFLXJfX1JnVzBFYkkydFN1Z0h1ZzVJRTktVXEwU3lUMWtfNzVucFl4Q3FCNzJKOUh1YUlNSUREQTM4U0F0RXhEVDdlR0p1V1gzWjJLYjlKTW1XemFSb2hWUDFfZHFUOE9pNE1NTUZIUm5NUjk4U1lkVS1mandxVEVWSW1mYmhWdS1BVl95M1Faa184TTk?oc=5",
+          "published": "2026-07-07T02:22:36.000Z",
           "via": "sections"
         },
         {
@@ -754,22 +770,6 @@
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSjhLZlRPVG1hRzRjbkFPaWc2OTBEemgzRmpBVm9Vdml5OVBlSW0zd0tJTHk1RmFpT2UwUXRwYXBTRS1mMWwwRGktUktZLVo3UVNyM0Q2VE9xdjJpVzFFZG8tekdDSnVOS21GMHdJSUJLV0J0LVVBZkdHTnZkUThNWGYxcWhVMTdieEdXeGVRSTRsS3dmQzRlNFFqY3lGYnd4d1E?oc=5",
           "published": "2026-07-05T22:00:00.000Z",
           "via": "sections"
-        },
-        {
-          "tag": "Earnings",
-          "headline": "Higher-for-Longer Rates Are a Gift for Life Insurers. MetLife and Prudential Are Cashing In. - Yahoo Finance",
-          "source": "Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVmV5RkQ4VXlxazFiMENpalcwT1BFb2xXeGJieGswd0dnOGxzaGJMQTJ2UGU3X01TUU9yZW44blFtYTFsMnpNeUh4dUY4QW1HZHdSelk0WnNZZ2ZrLWtFT0NudDd4Z0gxendJR2psWG1MSzFNRXI4WmVhX1ViMWE5c0pLR0M2dk1UYXluQzZwb0IwU1lpWkFEZGxB?oc=5",
-          "published": "2026-07-04T18:35:00.000Z",
-          "via": "google-news"
-        },
-        {
-          "tag": "Leadership",
-          "headline": "How Manulife’s CFO Supports Organizational Growth and Transformation - WSJ",
-          "source": "Deloitte WSJ",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSU5zcUtwQXk0d0ZZVlFYTnR1VlpHWlVxc2NvWFctc2xTNlBYTHpHNmtlQTU4ODJmcF8zQlFFNG11MVlzaVp6S0FVbWNuczZUckR6OC1pZnFtSE5JbGdBNUs5TTcybU9LZi0zSXFNcU90ZlJoczlNYjFMamlDdDhVcHpHb1otRVVjellRazVhZHBPekhqU1JGVENxSVllcUpsTGlmTlRaT1I?oc=5",
-          "published": "2026-07-02T16:00:00.000Z",
-          "via": "google-news"
         }
       ]
     },
@@ -789,22 +789,6 @@
           "via": "google-news"
         },
         {
-          "tag": "Earnings",
-          "headline": "Higher-for-Longer Rates Are a Gift for Life Insurers. MetLife and Prudential Are Cashing In. - Yahoo Finance",
-          "source": "Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVmV5RkQ4VXlxazFiMENpalcwT1BFb2xXeGJieGswd0dnOGxzaGJMQTJ2UGU3X01TUU9yZW44blFtYTFsMnpNeUh4dUY4QW1HZHdSelk0WnNZZ2ZrLWtFT0NudDd4Z0gxendJR2psWG1MSzFNRXI4WmVhX1ViMWE5c0pLR0M2dk1UYXluQzZwb0IwU1lpWkFEZGxB?oc=5",
-          "published": "2026-07-04T18:35:00.000Z",
-          "via": "google-news"
-        },
-        {
-          "tag": "Leadership",
-          "headline": "How Manulife’s CFO Supports Organizational Growth and Transformation - WSJ",
-          "source": "Deloitte WSJ",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSU5zcUtwQXk0d0ZZVlFYTnR1VlpHWlVxc2NvWFctc2xTNlBYTHpHNmtlQTU4ODJmcF8zQlFFNG11MVlzaVp6S0FVbWNuczZUckR6OC1pZnFtSE5JbGdBNUs5TTcybU9LZi0zSXFNcU90ZlJoczlNYjFMamlDdDhVcHpHb1otRVVjellRazVhZHBPekhqU1JGVENxSVllcUpsTGlmTlRaT1I?oc=5",
-          "published": "2026-07-02T16:00:00.000Z",
-          "via": "google-news"
-        },
-        {
           "tag": "Leadership",
           "headline": "Former Howden Re Japan chief joins Agam Capital - Insurance Business",
           "source": "Insurance Business",
@@ -813,12 +797,28 @@
           "via": "sections"
         },
         {
+          "tag": "Product",
+          "headline": "Wright Flood to acquire Tokio Marine-owned FICOH's flood policy book - theinsurer.com",
+          "source": "The Insurer",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNem1sX3NETDk5WllUVndaQjNFWXlUaVJ6c1FKT0E2QzJXbVoyeFFwT09JNHFKZEI4V2wyQzlSWEF4Nkowa0dMQkRsRDhRMDZGcXo1Zjd6VHVmTV9wTXZhUU1BN3dlUENfWndmai15QU4zMEZpWFVFQW44U1BHQlRRclR6ejlselk2aUhYTWg5M0taUmFBb19pcXVMUFg3T3lzX1o0OUdXVjh3VldjaThoWk9Ua0M?oc=5",
+          "published": "2026-07-06T21:23:27.000Z",
+          "via": "sections"
+        },
+        {
           "tag": "Press",
-          "headline": "Korea&#8217;s FSS hands non-dispute complaints to insurance associations",
+          "headline": "Japan’s FSA finalises tighter rules on asset-intensive reinsurance - (Re)in Asia",
           "source": "Reinasia",
-          "url": "https://reinasia.com/korea-insurance-groups-to-handle-some-non-dispute-complaints/",
-          "published": "2026-07-06T03:07:00.000Z",
-          "via": "rss"
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRHBOTHZaTDBHTl9QS1Y5bGlPNzVLRGpIYnFsaGU2czZTVkRySWd3RjJoZ1FrTzFjY296OXRodWkwVmlsako3Q1Fkbk9lTG9LMFUteU84MF9CVFdWRHZvLS11Y0tSTmk4aWJYZnZheWJvMXhVNnVRVEJXS1pVZ0FsOTlfWmp1dWZrZXFkRG9RMHc?oc=5",
+          "published": "2026-07-07T00:42:55.000Z",
+          "via": "sections"
+        },
+        {
+          "tag": "Press",
+          "headline": "Japan: Risk-based pricing to drive Japan's non-life insurance growth - Asia Insurance Review",
+          "source": "Asia Insurance Review",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxObko3cjdlcmt3elNxbmZWNW9ZN3RFbjJhS3hBem94ZVNta3BhZmdOTnlDcERJTmFuZGRSMFV2b3pmdERjZWpiTW1lSTlqMTRGVF9sQ2JtM0ZRSk9Fc00zVC01MXl0UC1vQks2MVdrTldTOGRWajYzR0RiZXMxcWFobVJ6WlpVSFNRLTdfMS02UU9EVVJRY2tiTGtJVVZQU0xzT0Y5U0o1QjFvZ3VaVlFNTFZaOS10YXhKMXBWVndyYXdWNktmdmtSZG5IM1B0dE1KVUgxNjFLY2RnRW1uMzQ0SjNPU0xLZw?oc=5",
+          "published": "2026-07-07T00:01:42.000Z",
+          "via": "google-news"
         }
       ]
     },
@@ -830,20 +830,20 @@
       "rssSourceCount": 7,
       "bullets": [
         {
+          "tag": "Regulatory",
+          "headline": "APRA finalises reinsurance framework reforms for general insurers - Insurance Business",
+          "source": "Insurance Business",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPT25xQklnemIxMWxFcHVyWjY4VTNUM1NwdFBIRlYzRDRWVTZ1MHJhOEN1LVJBLURRckpiRjRIVEpwX0ltcXlHMnVOeFNvb29JNi1tVmppZnhoREJhSWUxc080ay1fYlV0LWxsQ0Zkdm5Vc1lnSmFDMzNNT3loU1A1WVFobl9NcTJ6UWlBODl5eUZHd3J2VHhsMy1nc0l2R1N5YXlKcUVjazdvN25ndUdydzFQMEtJME5tZVRjcnZEYlk0WEVGTDFFNC1XalF6NktNd3c?oc=5",
+          "published": "2026-07-07T00:35:37.000Z",
+          "via": "sections"
+        },
+        {
           "tag": "Press",
           "headline": "Suncorp grows its cat reinsurance tower to $6.4B - BusinessInsurance.com",
           "source": "Business Insurance",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ0dDTnpOWmVtNnhDdnE5bURTSlA1ZDFjVm11aU53VkV1MW5Xd3M3WEJvcVlwMzJzT0hoNEZ3TUItelJ3ZTF1NWRiSWMxU21Za28wMXFMWDBwZ25ZdzUtWjdxbWNwR09xeUJfM1YwTEhUeTdxU0dFd1BXYTJJb2w3T0tpRWV2X1M2OHc?oc=5",
           "published": "2026-07-06T14:26:26.000Z",
           "via": "sections"
-        },
-        {
-          "tag": "Press",
-          "headline": "Lactalis fined in Australia for “misleading” fresh milk claims - Yahoo Finance",
-          "source": "Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNjdPTTNYcWJrOHpCaGtQeVdKMzZ4aVpoRC1RT0FBbzhETlpTTTlWMUJVWXZHNkpwT0ljQWltRENQcDNhVlg2THVrMjlPU2g5SGZNRm94UkRZRHVJUzVQY0tKaEFVUTViNjg0MEYwdEVmVjhSWkRDeGdubFFRQ2ZxVW9DZlpqci0wTHBCcUtDdElZd0RnZlZVZFVJdFRMVS1XN2JpVA?oc=5",
-          "published": "2026-07-06T14:02:05.000Z",
-          "via": "google-news"
         },
         {
           "tag": "Press",

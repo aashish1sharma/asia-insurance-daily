@@ -1,6 +1,7 @@
 import { cpSync, mkdirSync, readFileSync, writeFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { validateDashboard } from "./fetch-news.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -28,6 +29,8 @@ function main() {
   }
 
   const dashboard = JSON.parse(readFileSync(join(PUBLIC, "dashboard.json"), "utf8"));
+  validateDashboard(dashboard);
+  console.log("  Validation passed (global dedupe, no jobs, Yahoo insurance-only).");
   writeFileSync(
     join(DIST, "meta.json"),
     JSON.stringify(

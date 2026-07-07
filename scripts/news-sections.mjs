@@ -103,9 +103,11 @@ export function buildSectionQueries(domain, queryDays = SECTION_QUERY_DAYS) {
   }
 
   if (host === "finance.yahoo.com" || host === "sg.finance.yahoo.com") {
-    queries.add(
-      `site:${host} ("life insurers" OR "life insurance" OR "higher-for-longer" OR manulife OR prudential OR metlife) ${when} ${SECTION_QUERY_EXCLUDE}`,
-    );
+    return [
+      `site:${host} "Higher-for-Longer Rates" ${when}`,
+      `site:${host} ("life insurers" OR "life insurance" OR reinsurance OR insurtech OR underwrit*) ${when}`,
+      `site:${host} (insurance OR manulife OR prudential OR metlife OR aia OR chubb) ${when}`,
+    ];
   }
 
   if (host === "deloitte.wsj.com") {
